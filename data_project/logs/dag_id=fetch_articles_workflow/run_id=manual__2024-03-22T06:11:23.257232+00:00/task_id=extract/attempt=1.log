@@ -1,0 +1,1014 @@
+[2024-03-22T06:11:29.691+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:11:23.257232+00:00 [queued]>
+[2024-03-22T06:11:29.721+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:11:23.257232+00:00 [queued]>
+[2024-03-22T06:11:29.722+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-22T06:11:29.765+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-03-22 06:11:23.257232+00:00
+[2024-03-22T06:11:29.809+0000] {standard_task_runner.py:60} INFO - Started process 656 to run task
+[2024-03-22T06:11:29.829+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'fetch_articles_workflow', 'extract', 'manual__2024-03-22T06:11:23.257232+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/fetch_articles.py', '--cfg-path', '/tmp/tmprjpc32fo']
+[2024-03-22T06:11:29.833+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask extract
+[2024-03-22T06:11:30.374+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:11:23.257232+00:00 [running]> on host 1b79855aa23a
+[2024-03-22T06:11:31.046+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='mitchomzz@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_articles_workflow' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-03-22T06:11:23.257232+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-22T06:11:23.257232+00:00'
+[2024-03-22T06:11:34.031+0000] {python.py:202} INFO - Done. Returned value was: [
+    {
+        "author": "Circonomy",
+        "title": "[QLD, VIC] Get a Free Dog Bed or Sunglasses with Your Purchase in-Store @ Circonomy",
+        "description": "Freebie Weekend - Get a FREE Dog Bed or Sunglasses with your purchase in-store - Brisbane and Melbourne!\n\nTo say thanks to our amazing shoppers this weekend, we're giving away some amazing products to go along with your purchases exclusively in-store.\n\nGet on…",
+        "url": "https://www.ozbargain.com.au/node/837309",
+        "urlToImage": "https://files.ozbargain.com.au/n/09/837309l.jpg?h=d7a77d7a",
+        "publishedAt": "2024-03-21T06:11:10Z",
+        "content": "Freebie Weekend - Get a FREE Dog Bed or Sunglasses with your purchase in-store - Brisbane and Melbourne!\r\nTo say thanks to our amazing shoppers this weekend, we're giving away some amazing products t… [+876 chars]",
+        "source_name": "Ozbargain.com.au"
+    },
+    {
+        "author": null,
+        "title": "Cembra Money Bank : GRI content index 2023",
+        "description": "(marketscreener.com) \n \n GRI Content Index 2023\n \n \n References\n \n \n \n This GRI Content Index 2023 and all other sustainability-related disclosures are available at www.cembra.ch/sustainability\n \n \n Annual Report 2023 is available at www.cembra.ch/financialre…",
+        "url": "https://www.marketscreener.com/quote/stock/CEMBRA-MONEY-BANK-AG-14742754/news/Cembra-Money-Bank-GRI-content-index-2023-46248238/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:11:07Z",
+        "content": "Disclaimer\r\nCembra Money Bank AG published this content on \r\n20 March 2024 and is solely responsible for the information contained therein. Distributed by \r\nPublic, unedited and unaltered, on \r\n21 Ma… [+21 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "KH Group Plc's Financial Statements Release for 1 January - 31 December: 2023 Profitability retained in a challenging market",
+        "description": "(marketscreener.com) \n \n \n \n \n English\n \n \n Finnish \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ...https://www.marketscreener.com/quote/stock/KH-GROUP-OYJ-1412534/news/KH-Group-Plc-s-Financial-Statements-Release-for-1-January-31-December-2023-Profitability-retained-4…",
+        "url": "https://www.marketscreener.com/quote/stock/KH-GROUP-OYJ-1412534/news/KH-Group-Plc-s-Financial-Statements-Release-for-1-January-31-December-2023-Profitability-retained-46248237/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:11:07Z",
+        "content": "KH Group Plc's Financial Statements Release for 1 January - 31 December: 2023 Profitability retained in a challenging market\r\nKH Group PlcStock Exchange Release 21.3.2024 klo 8.00\r\nKH Group Plc's Fin… [+6027 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Reuters",
+        "title": "48 HOURS: Lakes & loons - Travel tips for Minnesota's Twin Cities",
+        "description": "48 HOURS: Lakes & loons - Travel tips for Minnesota's Twin Cities",
+        "url": "https://www.investing.com/news/general/48-hours-lakes--loons--travel-tips-for-minnesotas-twin-cities-3347259",
+        "urlToImage": "https://i-invdn-com.investing.com/news/World_News_8_800x533_L_1420026210.jpg",
+        "publishedAt": "2024-03-21T06:11:06Z",
+        "content": "By Chris Taylor\r\nNEW YORK (Reuters) - UNICEF, the U.N. children's agency, helps children in 190 countries and territories all over the planet.\r\nBut as president and CEO of its American branch, UNICEF… [+3870 chars]",
+        "source_name": "Investing.com"
+    },
+    {
+        "author": null,
+        "title": "Porsche Automobil : SE reduces debt and intends to take advantage of investment opportunities",
+        "description": "(marketscreener.com) \n Financial strategy successfully implemented and investment strategy developed further\n \n \n \n Group result after tax for 2023 at 5.1 billion euro\n \n \n Net debt improved by around 1 billion to 5.7 billion euro\n \n \n Incharge Capital Partne…",
+        "url": "https://www.marketscreener.com/quote/stock/PORSCHE-AUTOMOBIL-HOLDING-3938612/news/Porsche-Automobil-SE-reduces-debt-and-intends-to-take-advantage-of-investment-opportunities-46248234/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:11:05Z",
+        "content": "Financial strategy successfully implemented and investment strategy developed further\r\n<ul><li>\r\n Group result after tax for 2023 at 5.1 billion euro\r\n </li><li>\r\nNet debt improved by around 1 billio… [+5400 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Polaris Media : Godtgjørelse til ledende personer 2023",
+        "description": "(marketscreener.com) Ansattrep.\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 122\n \n ...https://www.marketscreener.com/quote/stock/POLARIS-MEDIA-ASA-5291034/news/Polaris-Media-Godtgjorelse-til-ledende-personer-2023-46248230/?utm_medium=RSS&utm_content=20240321",
+        "url": "https://www.marketscreener.com/quote/stock/POLARIS-MEDIA-ASA-5291034/news/Polaris-Media-Godtgjorelse-til-ledende-personer-2023-46248230/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:11:04Z",
+        "content": "Rapport om godtgjørelse til ledende personer 2023\r\n1. Bakgrunn og formål\r\nEtter allmennaksjeloven § 6-16 b) skal styret i Polaris Media ASA hvert regnskapsår utarbeide en rapport som gir en samlet ov… [+2710 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Polaris Media : Årsrapport 2023",
+        "description": "(marketscreener.com) \n \n \n Årsrapport\n \n \n \n \n 2023\n \n \n \n \n \n \n Årsrapport 2023\n \n \n \n \n Innholdsfortegnelse\n \n \n \n \n \n Konsernsjefens beretning\n \n ...https://www.marketscreener.com/quote/stock/POLARIS-MEDIA-ASA-5291034/news/Polaris-Media-rsrapport-2023-4624…",
+        "url": "https://www.marketscreener.com/quote/stock/POLARIS-MEDIA-ASA-5291034/news/Polaris-Media-rsrapport-2023-46248231/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:11:04Z",
+        "content": "Thale Kuvås Solberg (1977)\r\nStyremedlem (2023)\r\nUavhengig av hovedaksjeeiere\r\nThale Kuvås Solberg er utdannet siviløkonom fra Norges Handelshøyskole. Hun har bred ledererfaring både fra børsnoterte s… [+2159 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Cembra Money Bank : Annex to Sustainability Report 2023",
+        "description": "(marketscreener.com) \n \n Annex to Sustainability Report 2023\n \n \n \n \n \n Contents\n \n \n \n \n \n \n \n \n \n \n \n \n 1\n \n \n \n \n About this...https://www.marketscreener.com/quote/stock/CEMBRA-MONEY-BANK-AG-14742754/news/Cembra-Money-Bank-Annex-to-Sustainability-Report-20…",
+        "url": "https://www.marketscreener.com/quote/stock/CEMBRA-MONEY-BANK-AG-14742754/news/Cembra-Money-Bank-Annex-to-Sustainability-Report-2023-46248229/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:11:03Z",
+        "content": "Annex to Sustainability Report 2023\r\nCembra Money Bank AG - Bändliweg 20 - CH-8048 Zurich - Tel. +41 44 439 81 11 - www.cembra.ch\r\n<table><tr><td>\r\n 8\r\n</td><td>\r\nSupplemental information: Community … [+27981 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Softpedia Drivers",
+        "title": "Intel Smart Sound Technology Device Driver 10.24.0.5427 for Windows 10 S 64-bit",
+        "description": "The package provides the installation files for Intel Smart Sound Technology for Bluetooth Audio Device Driver version 10.24.0.5427.If the driver is already installed on your system, updating (overwrite-installing) may fix various issues, add new functions, o…",
+        "url": "https://drivers.softpedia.com/get/SOUND-CARD/Intel/Intel-Smart-Sound-Technology-Device-Driver-10-24-0-5427-for-Windows-10-S-64-bit.shtml",
+        "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png",
+        "publishedAt": "2024-03-21T06:11:01Z",
+        "content": "The package provides the installation files for Intel Smart Sound Technology for Bluetooth Audio Device Driver version 10.24.0.5427.If the driver is already installed on your system, updating (overwr… [+2271 chars]",
+        "source_name": "Softpedia.com"
+    },
+    {
+        "author": "John Pike",
+        "title": "Rafah massacre: At least 14 Palestinians killed in Israeli attacks on residential buildings",
+        "description": "The Israeli military has carried out new round of deadly attacks across the war-torn Gaza Strip, including in Rafah, where over a dozen Palestinians lost their lives.",
+        "url": "https://www.globalsecurity.org/military/library/news/2024/03/mil-240319-presstv06.htm",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:10:55Z",
+        "content": "Iran Press TV\r\nTuesday, 19 March 2024 11:04 AM\r\nThe Israeli military has carried out new round of deadly attacks across the war-torn Gaza Strip, including in Rafah, where over a dozen Palestinians lo… [+1369 chars]",
+        "source_name": "Globalsecurity.org"
+    },
+    {
+        "author": "editor katalogpromosi",
+        "title": "Big Brand Day Deli di Lazada BELI 1 GRATIS 1!",
+        "description": "Big Brand Day Deli di Lazada BELI 1 GRATIS 1! Berlaku hingga 26 Maret 2024. ... ...\nThe post Big Brand Day Deli di Lazada BELI 1 GRATIS 1! appeared first on Katalogpromosi.com.",
+        "url": "https://katalogpromosi.com/big-brand-day-deli-di-lazada-beli-1-gratis-1/",
+        "urlToImage": "https://katalogpromosi.com/wp-content/uploads/2024/03/promo_deli_alat_tulis_kantor_lazada_big_brand_day.jpg",
+        "publishedAt": "2024-03-21T06:10:50Z",
+        "content": "Share info promo kalian via Social Media / WhatsApp\r\nMULAI : 21/03/2024BERLAKU HINGGA : 26/03/2024\r\nBig Brand Day Deli di Lazada BELI 1 GRATIS 1! Berlaku hingga 26 Maret 2024.\r\nPaket alat tulis Deli … [+716 chars]",
+        "source_name": "Katalogpromosi.com"
+    },
+    {
+        "author": "woutr_be",
+        "title": "Show HN: Nomad Visa – A collection of countries with digital nomad visas",
+        "description": "Hi all,I've been working on curating and researching countries that offer digital nomad visas, and launch Nomad Visa about two months ago.While many digital nomads travel and work on tourist visas, I wanted to target people who are looking to legally work in …",
+        "url": "https://www.nomad-visa.com/",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:10:50Z",
+        "content": "Explore a world of opportunities with digital nomad visa-friendly destinations. Discover the countries that welcome remote workers with open arms, allowing you to live and work from captivating locat… [+134 chars]",
+        "source_name": "Nomad-visa.com"
+    },
+    {
+        "author": "Reuters Videos",
+        "title": "Reddit prices IPO at top of range, raises $748 mln",
+        "description": "STORY: The social site Reddit is set to give the market for tech listings a much-needed boost.Sources told Reuters that Reddit priced its initial public offering at the top of its targeted range on Wednesday (March 20).The platform is a social media site that…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bd4dd741-f681-43fb-888b-6066adc44a0a",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:10:48Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "PTI",
+        "title": "Arvind Kejriwal wants to join ED probe, his appeal to HC is against coercive action: Atishi",
+        "description": "Delhi Chief Minister Arvind Kejriwal wants to cooperate with the Enforcement Directorate's investigation but appeals to the high court to prevent coercive action, said Delhi minister Atishi. Kejriwal alleged the ED intends to arrest him and is being used as a…",
+        "url": "https://economictimes.indiatimes.com/news/elections/lok-sabha/delhi/arvind-kejriwal-wants-to-join-ed-probe-his-appeal-to-hc-is-against-coercive-action-atishi/articleshow/108668946.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108668897,width-1200,height-630,imgsize-126992,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-03-21T06:10:45Z",
+        "content": "NEW DELHI: Chief Minister Arvind Kejriwal wants to join the investigations of the Enforcement Directorate and cooperate with the agency but has appealed to the high court that coercive action not be … [+918 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "PTI",
+        "title": "Arvind Kejriwal wants to join ED probe, his appeal to HC is against coercive action: Atishi",
+        "description": "Delhi Chief Minister Arvind Kejriwal wants to cooperate with the Enforcement Directorate's investigation but appeals to the high court to prevent coercive action, said Delhi minister Atishi. Kejriwal alleged the ED intends to arrest him and is being used as a…",
+        "url": "https://economictimes.indiatimes.com/news/elections/lok-sabha/delhi/arvind-kejriwal-wants-to-join-ed-probe-his-appeal-to-hc-is-against-coercive-action-atishi/articleshow/108668725.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108668897,width-1200,height-630,imgsize-126992,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-03-21T06:10:45Z",
+        "content": "NEW DELHI: Chief Minister Arvind Kejriwal wants to join the investigations of the Enforcement Directorate and cooperate with the agency but has appealed to the high court that coercive action not be … [+918 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "Oluwasegun Sanusi",
+        "title": "Nurses Sue Minister of Health, Nursing Council over certificate verification Guidelines",
+        "description": "In a bid to challenge new certificate verification guidelines for nurses seeking opportunities abroad, eight nurses have taken legal action against the Nursing",
+        "url": "https://westafricaweekly.com/nurses-sue-minister-of-health-nursing-council-over-certificate-verification-guidelines/",
+        "urlToImage": "https://westafricaweekly.com/wp-content/uploads/2024/02/Health-Workers-Nurses-Rejects-NMCN-New-Verification-Policy.png",
+        "publishedAt": "2024-03-21T06:10:29Z",
+        "content": "In a bid to challenge new certificate verification guidelines for nurses seeking opportunities abroad, eight nurses have taken legal action against the Nursing and Midwifery Council of Nigeria (NMCN)… [+1775 chars]",
+        "source_name": "Westafricaweekly.com"
+    },
+    {
+        "author": "Jessie Shen",
+        "title": "YMTC promotes QLC NAND for enterprise storage",
+        "description": "QLC NAND development will make its way into the business market, according to Yangtze Memory Technology (YMTC).",
+        "url": "https://www.digitimes.com/news/a20240320PD226/ymtc-qlc-nand-storage.html",
+        "urlToImage": "https://img.digitimes.com/newsshow/20240320pd226_files/2_b.jpg",
+        "publishedAt": "2024-03-21T06:10:20Z",
+        "content": "Save my User ID and Password\r\nSome subscribers prefer to save their log-in information so they do not have to enter their User ID and Password each time they visit the site. To activate this function… [+307 chars]",
+        "source_name": "Digitimes"
+    },
+    {
+        "author": "Adam Harrison",
+        "title": "Age of Sigmar: AdeptiCon 2024 – New Edition Announced And Slated For Summer",
+        "description": "Warhammer: Age of Sigmar is getting a new update. Skaven are coming and are making their mark on a new edition! Let’s just kick this off with the trailer and discussion. It’s a BIG deal. ﻿ Age of Sigmar – New Edition Summer 2024 We all kinda knew this was com…",
+        "url": "https://www.belloflostsouls.net/2024/03/age-of-sigmar-adepticon-2024-new-edition-announced-and-slated-for-summer.html",
+        "urlToImage": "https://www.belloflostsouls.net/wp-content/uploads/2024/03/new-AOS-header-2024.jpg",
+        "publishedAt": "2024-03-21T06:10:12Z",
+        "content": "Warhammer: Age of Sigmar is getting a new update. Skaven are coming and are making their mark on a new edition!\r\nLet’s just kick this off with the trailer and discussion. It’s a BIG deal.\r\nAge of Sig… [+3895 chars]",
+        "source_name": "Belloflostsouls.net"
+    },
+    {
+        "author": "Hassan Mujtaba",
+        "title": "Intel Brings More Performance Improvements In Latest GPU Driver: +172% Uplift For Arc A-Series & +117% For Core Ultra",
+        "description": "Intel has released its latest Game On driver, 5379 WHQL, which brings another round of huge FPS uplifts for Arc A-Series GPUs & Core Ultra CPUs. Intel Game-On Driver Boosts Performance By Up To 172% For Arc GPUs & Core Ultra CPUs, Four New Games Supported Inc…",
+        "url": "https://wccftech.com/intel-performance-improvements-gpu-driver-huge-uplift-arc-a-series-core-ultra/",
+        "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2024/02/Intel-Arc-GPUs-Game-On-Drivers-Games.jpg",
+        "publishedAt": "2024-03-21T06:10:10Z",
+        "content": "Intel has released its latest Game On driver, 5379 WHQL, which brings another round of huge FPS uplifts for Arc A-Series GPUs &amp; Core Ultra CPUs.\r\nIt's fair to say by this point that Intel's softw… [+3501 chars]",
+        "source_name": "Wccftech"
+    },
+    {
+        "author": "apnews.com",
+        "title": "Governor signs bills creating electric vehicle charging station network across Wisconsin",
+        "description": "Wisconsin Gov. Tony Evers signed bipartisan bills Wednesday designed to jump-start creation of an electric vehicle charging network along the state’s interstate system and major highways. The new laws free up nearly $80 million in federal construction aid and…",
+        "url": "https://biztoc.com/x/0c3644bdca49d637",
+        "urlToImage": "https://c.biztoc.com/p/0c3644bdca49d637/og.webp",
+        "publishedAt": "2024-03-21T06:10:06Z",
+        "content": "Wisconsin Gov. Tony Evers signed bipartisan bills Wednesday designed to jump-start creation of an electric vehicle charging network along the states interstate system and major highways.The new laws … [+269 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "Dev Trehan",
+        "title": "Punjabi teenager Mannu makes historic Blues debut",
+        "description": "Teenager Riya Mannu made history on Wednesday night as she became the first British South Asian ever to play league football for Birmingham City Women.",
+        "url": "https://www.skysports.com/football/news/29833/13098998/birmingham-city-riya-mannu-makes-debut-and-becomes-first-british-south-asian-to-play-league-football-for-blues-women",
+        "urlToImage": "https://e0.365dm.com/22/05/1600x900/skysports-riya-mannu-birmingham_5760909.jpg?20220505055943",
+        "publishedAt": "2024-03-21T06:10:00Z",
+        "content": "Teenager Riya Mannu made history on Wednesday night as she became the first British South Asian ever to play league football for Birmingham City Women.\r\nThe 17-year-old came on for Charlie Devlin in … [+4167 chars]",
+        "source_name": "Sky Sports"
+    },
+    {
+        "author": "Sharil Abdul Rahman",
+        "title": "Apple spotlights key iPhone safety feature with local Hari Raya video",
+        "description": "With Ramadhan entering its second week and Hari Raya hype just around the corner, Apple has just released its Hari Raya video for 2024, featuring the Face ID security feature. The 30-second video features a story of a Raya gathering where it was themed around…",
+        "url": "https://soyacincau.com/2024/03/21/apple-spotlights-key-iphone-feature-with-local-hari-raya-video/",
+        "urlToImage": "https://soyacincau.com/wp-content/uploads/2024/03/iPhone-Face-ID-Raya-Ad-Hero.png",
+        "publishedAt": "2024-03-21T06:09:38Z",
+        "content": "With Ramadhan entering its second week and Hari Raya hype just around the corner, Apple has just released its Hari Raya video for 2024, featuring the Face ID security feature. The 30-second video fea… [+1235 chars]",
+        "source_name": "SoyaCincau.com"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": "Jorge W (aka LugalKiEn)",
+        "title": "Tortvre Premiere New Single \"Not Far From Slaughter\"",
+        "description": "Pittsburgh, Pennsylvania-based deathcore quartet Tortvre premiere a new single by the name of \"Not Far From Slaughter\", streaming via YouTube and Spotify for you now below.\n\n\n\n\n Read More/Discuss on Metal Underground.com",
+        "url": "http://www.metalunderground.com/news/details.cfm?newsid=157769",
+        "urlToImage": "https://www.metalunderground.com/assets/icons/horns-512.png",
+        "publishedAt": "2024-03-21T06:09:12Z",
+        "content": "posted\r\nMar21,2024 at \r\n2:09 AM\r\nby LugalKiEn.\r\n (0 Comments)\r\nPittsburgh, Pennsylvania-based deathcore quartet Tortvre premiere a new single by the name of \"Not Far From Slaughter\", streaming via Yo… [+35 chars]",
+        "source_name": "Metalunderground.com"
+    },
+    {
+        "author": "Reuters",
+        "title": "Spain's Iberdrola set to build on grid power as renewables appeal wanes",
+        "description": "Spain's Iberdrola is set to tell investors on Thursday it will focus spending over the next three years on expanding and upgrading grids, as it builds on a strategy that made it Europe's top utility by market value. Iberdrola has weathered an energy crisis an…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3bd02cb8-3ba6-4c10-a209-f1d21725bbd3",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:09:07Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": null,
+        "title": "Spain's Iberdrola set to build on grid power as renewables appeal wanes",
+        "description": "(marketscreener.com) Spain's Iberdrola is set to tell investors on Thursday it will focus spending over the next three years on expanding and upgrading grids, as it builds on a strategy that made it Europe's top utility by market value.https://www.marketscree…",
+        "url": "https://www.marketscreener.com/quote/stock/IBERDROLA-S-A-355153/news/Spain-s-Iberdrola-set-to-build-on-grid-power-as-renewables-appeal-wanes-46248162/",
+        "urlToImage": "https://www.marketscreener.com/images/reuters/2024-03/2024-03-21T060907Z_1_LYNXNPEK2K066_RTROPTP_3_SPAIN-ENERGY-IBERDROLA.JPG",
+        "publishedAt": "2024-03-21T06:09:07Z",
+        "content": "MADRID/LONDON (Reuters) - Spain's Iberdrola is set to tell investors on Thursday it will focus spending over the next three years on expanding and upgrading grids, as it builds on a strategy that mad… [+5579 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "AP",
+        "title": "Reddit, the self-anointed the 'front page of the internet,' set to make its stock market debut",
+        "description": "Reddit's IPO at $34/share on NYSE as 'RDDT' marks a significant milestone for the platform, attracting notable investors and focusing on revenue generation through various channels amidst a backdrop of challenges and past controversies.",
+        "url": "https://economictimes.indiatimes.com/tech/technology/reddit-the-self-anointed-the-front-page-of-the-internet-set-to-make-its-stock-market-debut/articleshow/108668675.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108668759,width-1200,height-630,imgsize-66400,overlay-ettech/photo.jpg",
+        "publishedAt": "2024-03-21T06:09:06Z",
+        "content": "Reddit and its eclectic bazaar of online communities is ready to plumb high-stakes territory - the stock market.The company said Wednesday that it had priced its IPO at $34 a share. Shares will begin… [+5885 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": null,
+        "title": "CEZ : Earned CZK 29.6 bn in 2023, with 74% thereof from emission-free activities. It is the highest profit for the past 10 years, excluding the extraordinary year of 2022",
+        "description": "(marketscreener.com) \n \n \n 21. 3. 2024\n \n \n Economics and financial news\n \n \n CEZ Group Earned CZK 29.6 bn in 2023, with 74% thereof from emission-free activities. It is the highest profit for the past 10 years, excluding the extraordinary year of 2022\n \n \n E…",
+        "url": "https://www.marketscreener.com/quote/stock/CEZ-6492098/news/CEZ-Earned-CZK-29-6-bn-in-2023-with-74-thereof-from-emission-free-activities-It-is-the-highest-46248223/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:09:05Z",
+        "content": "21. 3. 2024\r\n Economics and financial news\r\nCEZ Group Earned CZK 29.6 bn in 2023, with 74% thereof from emission-free activities. It is the highest profit for the past 10 years, excluding the extraor… [+4913 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Sojitz : and SAKURA internet Conclude Business Alliance for Expanding the Cloud Service Business",
+        "description": "(marketscreener.com) \n - Collaborating on Sojitz Group's Digital and AI Fields and GPU Cloud Services -\n \n \n \n Sojitz Corporation and SAKURA internet Inc. , a cloud computing service provider, have concluded a business alliance on March 21, 2024. Under this b…",
+        "url": "https://www.marketscreener.com/quote/stock/SOJITZ-CORPORATION-6496186/news/Sojitz-and-SAKURA-internet-Conclude-Business-Alliance-for-Expanding-the-Cloud-Service-Business-46248220/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:09:04Z",
+        "content": "- Collaborating on Sojitz Group's Digital and AI Fields and GPU Cloud Services -\r\nSojitz Corporation (Head Office: Chiyoda-ku Tokyo; Representative Director: Masayoshi Fujimoto; \"Sojitz\") and SAKURA … [+4390 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Nomura : to Announce Fourth Quarter and Full Year Operating Results on April 26",
+        "description": "(marketscreener.com) \n \n Tokyo, March 21, 2024-Nomura Holdings, Inc. plans to announce its operating results for the fourth quarter and full fiscal year ending March 31, 2024, at 15:00 in Tokyo on April 26, 2024. Financial statements and presentation material…",
+        "url": "https://www.marketscreener.com/quote/stock/NOMURA-HOLDINGS-INC-6492527/news/Nomura-to-Announce-Fourth-Quarter-and-Full-Year-Operating-Results-on-April-26-46248219/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:09:04Z",
+        "content": "Tokyo, March 21, 2024-Nomura Holdings, Inc. plans to announce its operating results for the fourth quarter and full fiscal year ending March 31, 2024, at 15:00 in Tokyo on April 26, 2024. Financial s… [+871 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Nomura : Selected as \"Next Nadeshiko\" Company for Helping Employees Balance Work and Life",
+        "description": "(marketscreener.com) \n \n Tokyo, March 21, 2024-Nomura Holdings, Inc. today announced that it has been named as a \"Next Nadeshiko\" company by the Ministry of Economy, Trade and Industry and the Tokyo Stock Exchange , for its commitment to helping employees bal…",
+        "url": "https://www.marketscreener.com/quote/stock/NOMURA-HOLDINGS-INC-6492527/news/Nomura-Selected-as-Next-Nadeshiko-Company-for-Helping-Employees-Balance-Work-and-Life-46248218/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:09:04Z",
+        "content": "Tokyo, March 21, 2024-Nomura Holdings, Inc. (Nomura) today announced that it has been named as a \"Next Nadeshiko\" company by the Ministry of Economy, Trade and Industry (METI) and the Tokyo Stock Exc… [+1772 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Jazeera Airways K S C P : holds AGM and EGM for 2023",
+        "description": "(marketscreener.com) \n \n - Continuing growth with focus on unit cost\n \n \n - Board of Directors to include one more member\n \n \n Kuwait, 20 March 2023\n \n \n Jazeera Airways held its Annual General Meeting and Extraordinary General Meeting at its headquarters in …",
+        "url": "https://www.marketscreener.com/quote/stock/JAZEERA-AIRWAYS-K-S-C-P-6500102/news/Jazeera-Airways-K-S-C-P-holds-AGM-and-EGM-for-2023-46248221/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:09:04Z",
+        "content": "- Continuing growth with focus on unit cost\r\n- Board of Directors to include one more member\r\nKuwait, 20 March 2023\r\nJazeera Airways held its Annual General Meeting (AGM) and Extraordinary General Me… [+1647 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Cembra Money Bank : Letter to Shareholders – 2023",
+        "description": "(marketscreener.com) \n \n \n Letter to Shareholders\n \n \n Dear Shareholders\n \n \n Cembra's solid results for 2023 reflect our continued focus on profitable growth. We continued to grow our net financing receivables and the loss performance remained robust. With o…",
+        "url": "https://www.marketscreener.com/quote/stock/CEMBRA-MONEY-BANK-AG-14742754/news/Cembra-Money-Bank-Letter-to-Shareholders-2023-46248217/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:09:04Z",
+        "content": "Progress in strategy implementation and on track to deliver mid-term targets by 2026\r\nIn 2023, Cembra continued to execute on its key strategic initiatives. The card migration programme was concluded… [+3215 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Marisa Chimprabha (World)",
+        "title": "PM gags senior police officers over online gambling conflict",
+        "description": "Prime Minister Srettha Thavisin today ordered senior police officers to stop talking or giving news to the media about the BNKMaster online gambling case, in an effort to ease tensions...\nThe post PM gags senior police officers over online gambling conflict f…",
+        "url": "https://www.thaipbsworld.com/pm-gags-senior-police-officers-over-online-gambling-conflict/",
+        "urlToImage": "https://www.thaipbsworld.com/wp-content/uploads/2024/03/srettha_police-600x337.jpg",
+        "publishedAt": "2024-03-21T06:08:51Z",
+        "content": "Prime Minister Srettha Thavisin today ordered senior police officers to stop talking or giving news to the media about the BNKMaster online gambling case, in an effort to ease tensions within the pol… [+1461 chars]",
+        "source_name": "Thaipbsworld.com"
+    },
+    {
+        "author": "James Kiarie",
+        "title": "Get Started with Emacs: Mastering Text Editing in Linux",
+        "description": "The post Get Started with Emacs: Mastering Text Editing in Linux first appeared on Tecmint: Linux Howtos, Tutorials & Guides .GNU Emacs is one of the oldest text editors. It was created by Richard Stallman, the founder of the Free Software movement and GNU pr…",
+        "url": "https://www.tecmint.com/emacs-text-editor/",
+        "urlToImage": "https://www.tecmint.com/wp-content/uploads/2024/03/Learn-Emacs-Editor.webp",
+        "publishedAt": "2024-03-21T06:08:41Z",
+        "content": "GNU Emacs is one of the oldest text editors. It was created by Richard Stallman, the founder of the Free Software movement and GNU project. He is also the creator of the GNU C compiler and Debugger.\r… [+11392 chars]",
+        "source_name": "Tecmint.com"
+    },
+    {
+        "author": "Emily JB Smith",
+        "title": "Cyclist, 62, dies after being hit by vehicle on Eyre Highway in outback Western Australia",
+        "description": "A WA Police spokesperson said the crash occurred near Madura, about 180km west of Eucla, and the road remains closed.",
+        "url": "https://www.abc.net.au/news/2024-03-21/eyre-highway-cyclist-fatal-dies-nullarbor/103617094",
+        "urlToImage": "https://live-production.wcms.abc-cdn.net.au/cb2e36b6ca6ef142db134f5f62be6e9e?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=261&width=862&height=485&imformat=generic",
+        "publishedAt": "2024-03-21T06:08:41Z",
+        "content": "A cyclist has died after being struck by a vehicle on the Eyre Highway in Western Australia's remote eastern Goldfields.\r\nA WA Police spokesperson said the crash occurred near Madura, about 190km wes… [+577 chars]",
+        "source_name": "ABC News (AU)"
+    },
+    {
+        "author": "Mike Glyer",
+        "title": "Vernor Vinge (1944-2024)",
+        "description": "Vernor Vinge, author of many influential hard science fiction works, died March 20 at the age of 79. Vinge sold his first science-fiction story in 1964, \"Apartness\", which appeared in the June 1965 issue of New Worlds. In 1971, he received a PhD (Math) from U…",
+        "url": "https://file770.com/vernor-vinge-1944-2024/",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:08:40Z",
+        "content": "Vernor Vinge\r\nVernor Vinge, author of many influential hard science fiction works, died March 20 at the age of 79.\r\nVinge sold his first science-fiction story in 1964, “Apartness”, which appeared in … [+2161 chars]",
+        "source_name": "File770.com"
+    },
+    {
+        "author": null,
+        "title": "VW holding company Porsche SE reduces debt by one billion euros",
+        "description": "(marketscreener.com) The VW holding company Porsche SE has reduced its mountain of debt accumulated as a result of the Porsche bankruptcy by around one billion euros. While net debt at the end of 2022 was still at 6.7 billion euros, it was 5.7 billion euros a…",
+        "url": "https://www.marketscreener.com/quote/stock/PORSCHE-AUTOMOBIL-HOLDING-3938612/news/VW-holding-company-Porsche-SE-reduces-debt-by-one-billion-euros-46248213/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:08:29Z",
+        "content": "STUTTGART (dpa-AFX) - The VW holding company Porsche SE (PSE) has reduced its mountain of debt accumulated as a result of the Porsche bankruptcy by around one billion euros. While net debt at the end… [+1859 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Sebastian Bowen",
+        "title": "Here are the top 10 ASX 200 shares today",
+        "description": "The ASX 200 was back to the races this Thursday.\nThe post Here are the top 10 ASX 200 shares today appeared first on The Motley Fool Australia.",
+        "url": "https://www.fool.com.au/2024/03/21/here-are-the-top-10-asx-200-shares-today-376/",
+        "urlToImage": "https://www.fool.com.au/wp-content/uploads/2023/08/winning-1200x675.jpeg",
+        "publishedAt": "2024-03-21T06:08:27Z",
+        "content": "It was a very strong day indeed for the S&amp;P/ASX 200 Index (ASX: XJO) this Thursday. After the disappointing session yesterday, it was back to the races for investors.\r\nBy the closing bell, the AS… [+2129 chars]",
+        "source_name": "Motley Fool Australia"
+    },
+    {
+        "author": "Insider Monkey",
+        "title": "Should You Invest in Liberty Broadband Corporation (LBRDK)?",
+        "description": "Ruane, Cunniff & Goldfarb, an investment adviser managing Sequoia Fund, released its Q4 2023 investor letter. A copy of the same can be downloaded here. In the fourth quarter, the fund returned 13.31% compared to an 11.69% return for the S&P 500 Index. The fu…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d5083d86-edf8-445f-bc98-ca40272db98a",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:08:18Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Soumya Eswaran",
+        "title": "Should You Invest in Liberty Broadband Corporation (LBRDK)?",
+        "description": "Ruane, Cunniff & Goldfarb, an investment adviser managing Sequoia Fund, released its Q4 2023 investor letter. A copy of the same can be downloaded here. In...",
+        "url": "https://finance.yahoo.com/news/invest-liberty-broadband-corporation-lbrdk-060818984.html",
+        "urlToImage": "https://media.zenfs.com/en/insidermonkey.com/274a1f03c8ca7965d471eaf532c96cb4",
+        "publishedAt": "2024-03-21T06:08:18Z",
+        "content": "Ruane, Cunniff &amp; Goldfarb, an investment adviser managing Sequoia Fund, released its Q4 2023 investor letter. A copy of the same can be downloaded here. In the fourth quarter, the fund returned 1… [+3458 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": null,
+        "title": "Source: Lorenzen, Rangers reach 1-year deal",
+        "description": "Right-hander Michael Lorenzen has agreed with Texas on a one-year deal worth $4.5 million guaranteed, a source confirmed.",
+        "url": "https://www.espn.com/mlb/story/_/id/39775193/michael-lorenzen-rangers-agree-1-year-45m-deal",
+        "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0810%2Fr1208562_1296x729_16%2D9.jpg",
+        "publishedAt": "2024-03-21T06:08:05Z",
+        "content": "Mar 21, 2024, 01:48 AM ET\r\nRight-hander Michael Lorenzen has reached agreement with the Texas Rangers on a one-year deal worth $4.5 million guaranteed that can max out at $7 million with incentives, … [+1946 chars]",
+        "source_name": "ESPN"
+    },
+    {
+        "author": null,
+        "title": "Discover 3 Leading Japanese Dividend Stocks With Yields Up To 4.3%",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2e9932fe-ae24-4e62-be80-ea5bf2d9e4db",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:07:51Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Simply Wall St.",
+        "title": "Discover 3 Leading Japanese Dividend Stocks With Yields Up To 4.3%",
+        "description": "The Japanese market has shown remarkable resilience, with a 3.8% increase in the last 7 days and a significant climb of 37% over the past year, alongside an anticipated earnings growth of 9.8% per annum. In this buoyant environment, identifying dividend stock…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8e31c7f5-ea16-4876-9291-93f6f75ac7dc",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:07:51Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Reuters",
+        "title": "ECB tells banks to prepare for new types of risk",
+        "description": "ECB tells banks to prepare for new types of risk",
+        "url": "https://www.investing.com/news/economy/ecb-tells-banks-to-prepare-for-new-types-of-risk-3347250",
+        "urlToImage": "https://i-invdn-com.investing.com/news/indicatornews_5_800x533_L_1412601619.jpg",
+        "publishedAt": "2024-03-21T06:07:33Z",
+        "content": "FRANKFURT (Reuters) - Euro zone banks must adjust how they manage risk as they face challenges from the end of ultra low interest rates to the emergence of non-traditional competitors that can quickl… [+1538 chars]",
+        "source_name": "Investing.com"
+    },
+    {
+        "author": "Harry",
+        "title": "SIMBA 2.5 Gbps Fibre Broadband Installation and Hands on test",
+        "description": "It is been a while since the annoucement of the SIMBA 2.5 Gbps broadband. The day has arrived and the technician came over to plug in the ONT to the the second fibre port. The equipment used as a LINK-ALL brand ONT with a CAT 6a cable connected to their iPhon…",
+        "url": "https://en.ocworkbench.com/simba-2-5-gbps-fibre-broadband-installation-and-hands-on-test/",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:07:25Z",
+        "content": "It is been a while since the annoucement of the SIMBA 2.5 Gbps broadband. The day has arrived and the technician came over to plug in the ONT to the the second fibre port.\r\nThe equipment used as a LI… [+2247 chars]",
+        "source_name": "Ocworkbench.com"
+    },
+    {
+        "author": "Reuters",
+        "title": "Analysis-Steady Fed outlook boosts stock market's hopes for coveted 'soft landing'",
+        "description": "Analysis-Steady Fed outlook boosts stock market's hopes for coveted 'soft landing'",
+        "url": "https://www.investing.com/news/economy/analysissteady-fed-outlook-boosts-stock-markets-hopes-for-coveted-soft-landing-3347249",
+        "urlToImage": "https://i-invdn-com.investing.com/news/SP500StandardandPoors500Index_800x533_L_1657544297.jpg",
+        "publishedAt": "2024-03-21T06:07:09Z",
+        "content": "By Lewis Krauskopf, Davide Barbuscia and David Randall\r\nNEW YORK (Reuters) - A U.S. stock market perched at record highs received an encouraging message from the Federal Reserve, after the central ba… [+4248 chars]",
+        "source_name": "Investing.com"
+    },
+    {
+        "author": "ET Online",
+        "title": "Sadhguru's health: Daughter Radhe Jaggi shares an update after his brain surgery",
+        "description": "Radhe Jaggi updated on Sadhguru's swift recovery from emergency brain surgery due to severe swelling and bleeding at Apollo Hospital in Delhi. PM Modi extended well wishes, acknowledging Sadhguru's influence. Neurologist mentioned his remarkable recovery prog…",
+        "url": "https://economictimes.indiatimes.com/news/india/sadhgurus-health-daughter-radhe-jaggi-shares-an-update-after-his-brain-surgery/articleshow/108667624.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108668614,width-1200,height-630,imgsize-31970,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-03-21T06:07:06Z",
+        "content": "Sadhguru Jaggi Vasudev's daughter, Radhe Jaggi, provided an update on her father's health, assuring concerned individuals that he is recuperating swiftly. She conveyed via Instagram Stories on Wednes… [+1895 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "ETMarkets.com",
+        "title": "Share price of DLF rises as Nifty strengthens",
+        "description": "A total of 35,180 shares changed hands on the counter till 11:37AM (IST).",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/share-price-of-dlf-rises-as-nifty-strengthens/articleshow/108668631.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-83771694,width-1200,height-630,imgsize-185726,overlay-etmarkets/photo.jpg",
+        "publishedAt": "2024-03-21T06:07:04Z",
+        "content": "Shares of DLF Ltd. gained 2.4 per cent to Rs 845.75 in Thursday's trade as of 11:37AM (IST). The stock hit a high price of Rs 849.0 and low of Rs 834.7 during the session. \r\nThe return on equity (ROE… [+969 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": null,
+        "title": "Veidekke : Presentation market update spring 2024",
+        "description": "(marketscreener.com) \n \n \n \n \n 21 March 2024\n \n \n \n \n Questions?\n \n \n \n \n \n \n Kristoffer Eide Hoen | Head of Business Development and Analysis\n \n \n \n \n ...https://www.marketscreener.com/quote/stock/VEIDEKKE-ASA-1413310/news/Veidekke-Presentation-market-update…",
+        "url": "https://www.marketscreener.com/quote/stock/VEIDEKKE-ASA-1413310/news/Veidekke-Presentation-market-update-spring-2024-46248212/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:07:02Z",
+        "content": "Production of buildings* and infrastructure in NOK billion\r\nTotal Scandinavian market 2023: ~ NOK 1 050 billion\r\n<table><tr><td></td><td></td><td></td><td>\r\n Private yrkesbygg\r\n</td></tr><tr><td></td… [+1001 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Kyocera : Launches Venture Capital Fund to Fuel Innovation Japan Corporate Start-up Alliance/Collaboration Financial Information",
+        "description": "(marketscreener.com) \n Kyocera Corporation today announced that it will launch the \"Kyocera Ventures Innovation Fund-I,\" a corporate venture capital fund of approx. 40 million U.S. dollars, on April 1, 2024, as a vehicle to create new businesses.\n \n \n Kyocera…",
+        "url": "https://www.marketscreener.com/quote/stock/KYOCERA-CORPORATION-6492472/news/Kyocera-Launches-Venture-Capital-Fund-to-Fuel-Innovation-Japan-Corporate-Start-up-Alliance-Collabo-46248211/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:07:02Z",
+        "content": "Kyocera Corporation (President: Hideo Tanimoto; hereinafter, Kyocera) today announced that it will launch the \"Kyocera Ventures Innovation Fund-I,\" a corporate venture capital fund of approx. 40 mill… [+2353 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "48 HOURS: Lakes & loons - Travel tips for Minnesota's Twin Cities",
+        "description": "(marketscreener.com) UNICEF, the U.N. children's agency, helps children in 190 countries and territories all over the planet.https://www.marketscreener.com/news/latest/48-HOURS-Lakes-loons-Travel-tips-for-Minnesota-s-Twin-Cities--46248214/?utm_medium=RSS&utm_…",
+        "url": "https://www.marketscreener.com/news/latest/48-HOURS-Lakes-loons-Travel-tips-for-Minnesota-s-Twin-Cities-46248214/",
+        "urlToImage": "https://www.marketscreener.com/images/reuters/2024-03/2024-03-21T060701Z_2_LYNXNPEK2K04B_RTROPTP_3_TRAVEL-48HOURS-TWINCITIES.JPG",
+        "publishedAt": "2024-03-21T06:07:01Z",
+        "content": "NEW YORK (Reuters) - UNICEF, the U.N. children's agency, helps children in 190 countries and territories all over the planet.\r\n But as president and CEO of its American branch, UNICEF USA, Michael Ny… [+3924 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Adcock Ingram Holdings Limited's (JSE:AIP) Stock Has Shown Weakness Lately But Financial Prospects Look Decent: Is The Market Wrong?",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0c78e42d-e5ce-4734-9246-1dd153ed445d",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:06:55Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Simply Wall St.",
+        "title": "Adcock Ingram Holdings Limited's (JSE:AIP) Stock Has Shown Weakness Lately But Financial Prospects Look Decent: Is The Market Wrong?",
+        "description": "It is hard to get excited after looking at Adcock Ingram Holdings' (JSE:AIP) recent performance, when its stock has...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0d1fe456-0181-4d84-a080-192223d6d163",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:06:55Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "katalogpromosi_admin",
+        "title": "Promo CINEPOLIS BELI 1 GRATIS 1 tiket film KUKEJAR MIMPI",
+        "description": "Promo CINEPOLIS BELI 1 GRATIS 1 tiket film KUKEJAR MIMPI, berlaku mulai tanggal 21 – ... ...\nThe post Promo CINEPOLIS BELI 1 GRATIS 1 tiket film KUKEJAR MIMPI appeared first on Katalogpromosi.com.",
+        "url": "https://katalogpromosi.com/promo-cinepolis-beli-1-gratis-1-tiket-film-kukejar-mimpi/",
+        "urlToImage": "https://katalogpromosi.com/wp-content/uploads/2024/02/cinepolis_b1g1_kukejar_mimpi_21032024.jpg",
+        "publishedAt": "2024-03-21T06:06:51Z",
+        "content": "Katalogpromosi.com Ada Sebuah Situs yang bertujuan memberikan informasi promosi terupdate khusus buat kalian para pencinta Diskon di Indonesia\r\nMulai dari Info Diskon, Promo, Sale, Event terkini hing… [+198 chars]",
+        "source_name": "Katalogpromosi.com"
+    },
+    {
+        "author": "Sophie Madden",
+        "title": "Crooked House: Experts say rebuild could be complicated",
+        "description": "A museum says some of its buildings have taken years to reconstruct.",
+        "url": "https://www.bbc.co.uk/news/articles/cn0e41l75qeo",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/072f/live/fdb779b0-e6d0-11ee-860f-4b0b053e4cd0.png",
+        "publishedAt": "2024-03-21T06:06:42Z",
+        "content": "In 2022, the Black Country Living Museum opened the Elephant and Castle pub, a replica of a pub that stood in Wolverhampton until 2001. \r\nA museum spokesperson said \"the complexity and cost\" of The C… [+576 chars]",
+        "source_name": "BBC News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Cytek Biosciences (NASDAQ:CTKB) Stock Price Down 4.8% Following Insider Selling",
+        "description": "Cytek Biosciences, Inc. (NASDAQ:CTKB – Get Free Report)’s stock price traded down 4.8% on Wednesday following insider selling activity. The stock traded as low as $6.28 and last traded at $6.38. 154,035 shares changed hands during trading, a decline of 79% fr…",
+        "url": "https://www.etfdailynews.com/2024/03/21/cytek-biosciences-nasdaqctkb-stock-price-down-4-8-following-insider-selling/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cytek-biosciences-inc-logo-1200x675.jpg?v=20210802140748&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:06:41Z",
+        "content": "Cytek Biosciences, Inc. (NASDAQ:CTKB – Get Free Report)’s stock price traded down 4.8% on Wednesday following insider selling activity. The stock traded as low as $6.28 and last traded at $6.38. 154,… [+5099 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Signet Jewelers (NYSE:SIG) Shares Gap Down Following Analyst Downgrade",
+        "description": "Signet Jewelers Limited (NYSE:SIG – Get Free Report)’s share price gapped down before the market opened on Wednesday after UBS Group lowered their price target on the stock from $138.00 to $134.00. The stock had previously closed at $102.46, but opened at $90…",
+        "url": "https://www.etfdailynews.com/2024/03/21/signet-jewelers-nysesig-shares-gap-down-following-analyst-downgrade/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/signet-jewelers-ltd-logo-1200x675.gif&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:06:41Z",
+        "content": "Signet Jewelers Limited (NYSE:SIG – Get Free Report)’s share price gapped down before the market opened on Wednesday after UBS Group lowered their price target on the stock from $138.00 to $134.00. T… [+5305 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "FMC (NYSE:FMC) Shares Gap Up After Analyst Upgrade",
+        "description": "FMC Co. (NYSE:FMC – Get Free Report) gapped up prior to trading on Wednesday after UBS Group upgraded the stock from a neutral rating to a buy rating. The stock had previously closed at $61.67, but opened at $63.53. UBS Group now has a $84.00 price target on …",
+        "url": "https://www.etfdailynews.com/2024/03/21/fmc-nysefmc-shares-gap-up-after-analyst-upgrade/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/fmc-corp-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:06:41Z",
+        "content": "FMC Co. (NYSE:FMC – Get Free Report) gapped up prior to trading on Wednesday after UBS Group upgraded the stock from a neutral rating to a buy rating. The stock had previously closed at $61.67, but o… [+5478 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "UiPath (NYSE:PATH) Shares Down 1.2% Following Insider Selling",
+        "description": "UiPath Inc. (NYSE:PATH – Get Free Report) dropped 1.2% during mid-day trading on Wednesday after an insider sold shares in the company. The stock traded as low as $22.79 and last traded at $22.86. Approximately 1,814,419 shares traded hands during mid-day tra…",
+        "url": "https://www.etfdailynews.com/2024/03/21/uipath-nysepath-shares-down-1-2-following-insider-selling/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/uipath-inc-logo-1200x675.png?v=20210517065809&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:06:41Z",
+        "content": "UiPath Inc. (NYSE:PATH – Get Free Report) dropped 1.2% during mid-day trading on Wednesday after an insider sold shares in the company. The stock traded as low as $22.79 and last traded at $22.86. Ap… [+5222 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "Martin Brinkmann",
+        "title": "You can now zoom images easier in Microsoft Edge thanks to new Magnify feature",
+        "description": "Microsoft added a new feature to its Edge browser recently that improves how you zoom images in the browser. Most websites restrict the width of content and this impacts images as well. […]\nThank you for being a Ghacks reader. The post You can now zoom images…",
+        "url": "https://www.ghacks.net/2024/03/21/you-can-now-zoom-images-easier-in-microsoft-edge-thanks-to-new-magnify-feature/",
+        "urlToImage": "https://www.ghacks.net/wp-content/uploads/2024/03/marten-newhall-uAFjFsMS3YY-unsplash.jpg",
+        "publishedAt": "2024-03-21T06:06:14Z",
+        "content": "Microsoft added a new feature to its Edge browser recently that improves how you zoom images in the browser. Most websites restrict the width of content and this impacts images as well. Some images m… [+2282 chars]",
+        "source_name": "Ghacks Technology News"
+    },
+    {
+        "author": "pcmag.com",
+        "title": "Canadian regulatory agency ISED clarifies its stance on banning Flipper Zero, saying the aim is to restrict the use of such devices “to legitimate actors only”",
+        "description": "Canada is signaling that it won’t fully ban the Flipper Zero. Instead, the aim is to crack down on “illegitimate actors” from exploiting the devices to steal cars. On Wednesday, the Innovation, Science and Economic Development Canada (ISED) department clarifi…",
+        "url": "https://biztoc.com/x/516b4fdb4afdc42a",
+        "urlToImage": "https://c.biztoc.com/p/516b4fdb4afdc42a/s.webp",
+        "publishedAt": "2024-03-21T06:06:07Z",
+        "content": "Canada is signaling that it wont fully ban the Flipper Zero. Instead, the aim is to crack down on illegitimate actors from exploiting the devices to steal cars.On Wednesday, the Innovation, Science a… [+278 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "Aleksandra Krzysztoszek",
+        "title": "Warsaw blames EU Commissioner Wojciechowski for farmers’ protests",
+        "description": "Polish EU Agriculture Commissioner Janusz Wojciechowski is to blame for the problems that led to farmers’ protests in Poland, Prime Minister Donald Tusk’s office said in response to a letter the EU official sent to the prime minister, adding that he should “g…",
+        "url": "https://www.euractiv.com/section/politics/news/warsaw-blames-eu-commissioner-wojciechowski-for-farmers-protests/",
+        "urlToImage": "https://www.euractiv.com/wp-content/uploads/sites/2/2024/03/12077244-e1711001093247-800x450.jpg",
+        "publishedAt": "2024-03-21T06:05:13Z",
+        "content": "Polish EU Agriculture Commissioner Janusz Wojciechowski is to blame for the problems that led to farmers protests in Poland, Prime Minister Donald Tusks office said in response to a letter the EU off… [+2372 chars]",
+        "source_name": "EURACTIV"
+    },
+    {
+        "author": "Stack Overflow",
+        "title": "type object ...... has no attribute 'replace'",
+        "description": "I'm using Django 4.2 application\nthis is my model:\nfrom django.db import models\n\nfrom django.utils.translation import gettext_lazy as _\n\nclass Category(models.Model):\n parent = models.ForeignKey('self', verbose_name=_('parent'), blank=True, null = True, on_de…",
+        "url": "https://stackoverflow.com/questions/78197790/type-object-has-no-attribute-replace",
+        "urlToImage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+        "publishedAt": "2024-03-21T06:05:12Z",
+        "content": "I'm using Django 4.2 application\r\nthis is my model:\r\nfrom django.db import models\r\nfrom django.utils.translation import gettext_lazy as _\r\nclass Category(models.Model):\r\n parent = models.ForeignKey('… [+1554 chars]",
+        "source_name": "Stackoverflow.com"
+    },
+    {
+        "author": null,
+        "title": "CEZ : ČEZ Group has reached an agreement to acquire a 55.21% stake in the gas infrastructure operator GasNet",
+        "description": "(marketscreener.com) \n \n I n t e r n a l I n f o r m a t i o n\n \n \n ČEZ Group has reached an agreement to acquire a 55.21% stake in the gas infrastructure operator GasNet\n \n \n ČEZ Group announces the acquisition of a 55.21% stake in GasNet, the leading gas di…",
+        "url": "https://www.marketscreener.com/quote/stock/CEZ-6492098/news/CEZ-EZ-Group-has-reached-an-agreement-to-acquire-a-55-21-stake-in-the-gas-infrastructure-operat-46248181/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:05:02Z",
+        "content": "I n t e r n a l I n f o r m a t i o n\r\nEZ Group has reached an agreement to acquire a 55.21% stake in the gas infrastructure operator GasNet\r\nEZ Group announces the acquisition of a 55.21% stake in G… [+3580 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Nemetschek : Conference Call FY 2023 Presentation",
+        "description": "(marketscreener.com) \n \n \n Earnings Call Q4- /FY-23\n \n \n \n \n Nemetschek Group\n \n \n \n \n March 21, 2024\n \n \n \n \n \n \n \n Agenda\n \n \n \n \n \n 01\n \n ...https://www.marketscreener.com/quote/stock/NEMETSCHEK-SE-436349/news/Nemetschek-Conference-Call-FY-2023-Presentatio…",
+        "url": "https://www.marketscreener.com/quote/stock/NEMETSCHEK-SE-436349/news/Nemetschek-Conference-Call-FY-2023-Presentation-46248178/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:05:02Z",
+        "content": "Earnings Call Q4- /FY-23\r\nNemetschek Group\r\nMarch 21, 2024\r\nAgenda\r\n<table><tr><td>\r\n 01\r\n</td><td></td><td>\r\nHighlights FY-2023 and\r\n</td><td>\r\n05\r\n</td></tr><tr><td></td><td></td><td></td></tr><tr>… [+9460 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Astarta : Became the Voice of Ukrainian Sugar Producers at the International Sugar Conference in Dubai",
+        "description": "(marketscreener.com) \n Astarta became the voice of Ukrainian sugar producers at the March international sugar conference held in Dubai. The event brought together more than 700 industry representatives from different countries and became the most crucial even…",
+        "url": "https://www.marketscreener.com/quote/stock/ASTARTA-HOLDING-PLC-6499053/news/Astarta-Became-the-Voice-of-Ukrainian-Sugar-Producers-at-the-International-Sugar-Conference-in-Dub-46248179/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:05:02Z",
+        "content": "Astarta became the voice of Ukrainian sugar producers at the March international sugar conference held in Dubai. The event brought together more than 700 industry representatives from different count… [+1020 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "CEZ : 2023 Financial Results",
+        "description": "(marketscreener.com) \n \n I n t e r n a l I n f o r m a t i o n\n \n \n CEZ Group Earned CZK 29.6 bn in 2023, with 74% thereof from emission-free activities. It is the highest profit for the past 10 years, excluding the extraordinary year of 2022.\n \n \n Earnings b…",
+        "url": "https://www.marketscreener.com/quote/stock/CEZ-6492098/news/CEZ-2023-Financial-Results-46248180/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:05:02Z",
+        "content": "I n t e r n a l I n f o r m a t i o n\r\nCEZ Group Earned CZK 29.6 bn in 2023, with 74% thereof from emission-free activities. It is the highest profit for the past 10 years, excluding the extraordinar… [+5048 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "PetroTal Announces Q4 and 2023 Financial and Operating Results",
+        "description": "(marketscreener.com) PetroTal Corp. is pleased to report its operating and audited financial results for the three and twelve months ended December 31, 2023 .Selected financial and operational information is outlined below and should be read in conjunction wi…",
+        "url": "https://www.marketscreener.com/quote/stock/PETROTAL-CORP-44196205/news/PetroTal-Announces-Q4-and-2023-Financial-and-Operating-Results-46248177/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:05:01Z",
+        "content": "Q4 2023 average sales and production of 15,033 bopd and 14,865 bopd, respectively2023 average year on year production growth of 17% to 14,248 bopdGenerated 2023 free funds flow of $91 millionReturned… [+35581 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "If you have a successful business stealing the assets of dead rich guys, flee the country when the cops are closing in. Do not take a cruise around San Francisco Bay to dispose of body parts, or search the internet for more dead rich guys [Awkward]",
+        "description": "If you have a successful business stealing the assets of dead rich guys, flee the country when the cops are closing in. Do not take a cruise around San Francisco Bay to dispose of body parts, or search the internet for more dead rich guys",
+        "url": "https://www.fark.com/comments/13193738/If-you-have-a-successful-business-stealing-assets-of-dead-rich-guys-flee-country-when-cops-are-closing-in-Do-not-take-a-cruise-around-San-Francisco-Bay-to-dispose-of-body-parts-search-internet-for-more-dead-rich-guys",
+        "urlToImage": "https://usrimg-full.fark.net/d/dT/fark_dT38s2EecZ7LLR8W6vDZPpcFI6I.png?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1711339200&Signature=dEyoQPD0mgaNELkteisVmUGapIA%3D",
+        "publishedAt": "2024-03-21T06:05:00Z",
+        "content": "<li>Links are submitted by members of the Fark community.\r\n</li><li>When community members submit a link, they also write a custom headline for the story.\r\n</li><li>Other Farkers comment on the links… [+177 chars]",
+        "source_name": "Fark.com"
+    },
+    {
+        "author": "VNA",
+        "title": "Vice State President now Acting President",
+        "description": "Mme. Vo Thi Anh Xuan, Vice State President, assumes the position of Acting President of the Socialist Republic of Vietnam from March 21, 2024, until the National Assembly elects a new President, an announcement of the National Assembly (NA)’s Standing Committ…",
+        "url": "https://en.vietnamplus.vn/vice-state-president-now-acting-president/283263.vnp",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:05:00Z",
+        "content": "Hanoi (VNA) Mme. Vo Thi Anh Xuan, Vice State President, assumes the position of Acting President of the Socialist Republic of\r\nVietnam from March 21, 2024, until the National Assembly elects a new Pr… [+257 chars]",
+        "source_name": "Vietnamplus.vn"
+    },
+    {
+        "author": "Pratik Parija,Clara Ferreira Marques",
+        "title": "Hardships, broken promises no hindrance for Modi in India's rural north",
+        "description": "Sitting cross-legged in a starched white kurta, Dayaram Raikwar moves the bellows on his harmonium with dexterity, chanting about subsidized toilets, clean water, debt relief for farmers, emancipation for women, and the rule of law.",
+        "url": "https://www.japantimes.co.jp/news/2024/03/21/world/politics/india-hindi-farmer-distress-modi/",
+        "urlToImage": "https://www.japantimes.co.jp/japantimes/uploads/images/2024/03/21/287379.jpg",
+        "publishedAt": "2024-03-21T06:05:00Z",
+        "content": "Sitting cross-legged in a starched white kurta, Dayaram Raikwar moves the bellows on his harmonium with dexterity, chanting about subsidized toilets, clean water, debt relief for farmers, emancipatio… [+538 chars]",
+        "source_name": "The Japan Times"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Neo Performance Materials (OTCMKTS:NOPMF) PT Lowered to $7.50 at Stifel Nicolaus",
+        "description": "Neo Performance Materials (OTCMKTS:NOPMF – Free Report) had its price objective decreased by Stifel Nicolaus from $9.00 to $7.50 in a research note issued to investors on Monday, Benzinga reports. Stifel Nicolaus currently has a hold rating on the stock. Neo …",
+        "url": "https://www.etfdailynews.com/2024/03/21/neo-performance-materials-otcmktsnopmf-pt-lowered-to-7-50-at-stifel-nicolaus/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/neo-performance-materials-inc-logo.png?v=20230223141031&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:43Z",
+        "content": "Neo Performance Materials (OTCMKTS:NOPMF – Free Report) had its price objective decreased by Stifel Nicolaus from $9.00 to $7.50 in a research note issued to investors on Monday, Benzinga reports. St… [+1121 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Royal Bank of Canada Cuts Premium Brands (OTCMKTS:PRBZF) Price Target to $99.00",
+        "description": "Premium Brands (OTCMKTS:PRBZF – Free Report) had its price target trimmed by Royal Bank of Canada from $103.00 to $99.00 in a research note released on Monday, Benzinga reports. The brokerage currently has a sector perform rating on the stock. Premium Brands …",
+        "url": "https://www.etfdailynews.com/2024/03/21/royal-bank-of-canada-cuts-premium-brands-otcmktsprbzf-price-target-to-99-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/premium-brands-holdings-co-logo.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:43Z",
+        "content": "Premium Brands (OTCMKTS:PRBZF – Free Report) had its price target trimmed by Royal Bank of Canada from $103.00 to $99.00 in a research note released on Monday, Benzinga reports. The brokerage current… [+1130 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "TD Securities Trims Transat A.T. (TSE:TRZ) Target Price to C$3.75",
+        "description": "Transat A.T. (TSE:TRZ – Free Report) had its target price cut by TD Securities from C$5.50 to C$3.75 in a research note published on Monday morning, BayStreet.CA reports. They currently have a hold rating on the stock. A number of other equities analysts have…",
+        "url": "https://www.etfdailynews.com/2024/03/21/td-securities-trims-transat-a-t-tsetrz-target-price-to-c3-75/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/transat-at-inc-logo.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:42Z",
+        "content": "Transat A.T. (TSE:TRZ – Free Report) had its target price cut by TD Securities from C$5.50 to C$3.75 in a research note published on Monday morning, BayStreet.CA reports. They currently have a hold r… [+1753 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Raymond James Increases Aritzia (OTCMKTS:ATZAF) Price Target to $46.00",
+        "description": "Aritzia (OTCMKTS:ATZAF – Get Free Report) had its target price raised by investment analysts at Raymond James from $35.00 to $46.00 in a report released on Tuesday, Benzinga reports. The brokerage presently has an “outperform” rating on the stock. Raymond Jam…",
+        "url": "https://www.etfdailynews.com/2024/03/21/raymond-james-increases-aritzia-otcmktsatzaf-price-target-to-46-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/aritzia-inc-logo-1200x675.png?v=20230216152110&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:42Z",
+        "content": "Aritzia (OTCMKTS:ATZAF – Get Free Report) had its target price raised by investment analysts at Raymond James from $35.00 to $46.00 in a report released on Tuesday, Benzinga reports. The brokerage pr… [+1174 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Cormark Increases Automotive Properties Real Est Invt TR (TSE:APR.UN) Price Target to C$13.50",
+        "description": "Automotive Properties Real Est Invt TR (TSE:APR.UN – Get Free Report) had its target price lifted by research analysts at Cormark from C$13.20 to C$13.50 in a research report issued on Tuesday, BayStreet.CA reports. Cormark’s price target would indicate a pot…",
+        "url": "https://www.etfdailynews.com/2024/03/21/cormark-increases-automotive-properties-real-est-invt-tr-tseapr-un-price-target-to-c13-50/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/automotive-properties-real-est-invt-tr-logo-1200x675.png?v=20210325131652&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:41Z",
+        "content": "Automotive Properties Real Est Invt TR (TSE:APR.UN – Get Free Report) had its target price lifted by research analysts at Cormark from C$13.20 to C$13.50 in a research report issued on Tuesday, BaySt… [+2009 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Raymond James Increases Aritzia (TSE:ATZ) Price Target to C$46.00",
+        "description": "Aritzia (TSE:ATZ – Get Free Report) had its price objective boosted by equities researchers at Raymond James from C$35.00 to C$46.00 in a report issued on Tuesday, BayStreet.CA reports. The brokerage presently has an “outperform” rating on the stock. Raymond …",
+        "url": "https://www.etfdailynews.com/2024/03/21/raymond-james-increases-aritzia-tseatz-price-target-to-c46-00/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/aritzia-inc-logo-1200x675.jpg?v=20221114202623&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:41Z",
+        "content": "Aritzia (TSE:ATZ – Get Free Report) had its price objective boosted by equities researchers at Raymond James from C$35.00 to C$46.00 in a report issued on Tuesday, BayStreet.CA reports. The brokerage… [+3739 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Enterprise Group (TSE:E) Given a C$1.33 Price Target by Fundamental Research Analysts",
+        "description": "Enterprise Group (TSE:E – Get Free Report) has been given a C$1.33 target price by equities research analysts at Fundamental Research in a research note issued to investors on Tuesday, BayStreet.CA reports. The brokerage presently has a “buy” rating on the st…",
+        "url": "https://www.etfdailynews.com/2024/03/21/enterprise-group-tsee-given-a-c1-33-price-target-by-fundamental-research-analysts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/enterprise-group-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:41Z",
+        "content": "Enterprise Group (TSE:E – Get Free Report) has been given a C$1.33 target price by equities research analysts at Fundamental Research in a research note issued to investors on Tuesday, BayStreet.CA r… [+1463 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "AutoCanada (TSE:ACQ) PT Set at C$35.00 by Cormark",
+        "description": "AutoCanada (TSE:ACQ – Get Free Report) received a C$35.00 price target from research analysts at Cormark in a research report issued to clients and investors on Tuesday, BayStreet.CA reports. Cormark’s price target suggests a potential upside of 37.15% from t…",
+        "url": "https://www.etfdailynews.com/2024/03/21/autocanada-tseacq-pt-set-at-c35-00-by-cormark/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/autocanada-inc-logo-1200x675.png?v=20221208111744&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:04:41Z",
+        "content": "AutoCanada (TSE:ACQ – Get Free Report) received a C$35.00 price target from research analysts at Cormark in a research report issued to clients and investors on Tuesday, BayStreet.CA reports. Cormark… [+2935 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "Al Jazeera",
+        "title": "Is­rael’s war on Gaza: List of key events, day 167",
+        "description": "US Secretary of State Antony Blinken has begun a Middle East tour hoping to secure a ceasefire in Israel’s war on Gaza.",
+        "url": "https://www.aljazeera.com/news/2024/3/21/israels-war-on-gaza-list-of-key-events-day-167",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/03/2024-03-20T200830Z_1261157909_RC2VP6AWFXA2_RTRMADP_3_ISRAEL-PALESTINIANS-JENIN-AFTERMATH-1710995116.jpg?resize=1920%2C1440",
+        "publishedAt": "2024-03-21T06:04:41Z",
+        "content": "Heres how things stand on Thursday, March 21, 2024:\r\nFighting and humanitarian crisis\r\n<ul><li>Israels military said on Wednesday it had killed about 90 gunmen and arrested 160 in a raid on Gazas al-… [+3218 chars]",
+        "source_name": "Al Jazeera English"
+    },
+    {
+        "author": "Nick deCourville",
+        "title": "Can You Use an Apple Pencil with Google Docs? What to Know",
+        "description": "If you're like me, sticking with just Apple products isn't always easy. For example, people at work like other devices and applications, for some reason, which is why I wanted to find out how to use an Apple Pencil with Google Docs. Unfortunately, I wasn't a …",
+        "url": "https://www.macobserver.com/tips/how-to/apple-pencil-google-docs/",
+        "urlToImage": "https://www.macobserver.com/wp-content/uploads/2024/03/Apple-Pencil-Google-Docs-March-2024-Featured.jpg",
+        "publishedAt": "2024-03-21T06:04:39Z",
+        "content": "If you’re like me, sticking with just Apple products isn’t always easy. For example, people at work like other devices and applications, for some reason, which is why I wanted to find out how to use … [+1338 chars]",
+        "source_name": "The Mac Observer"
+    },
+    {
+        "author": "Richa Shukla",
+        "title": "It’s a festival of joy and happiness: Delnaaz Irani on celebrating Navroz",
+        "description": "Today is Parsi new year and as the Parsi community indulges in celebrating the festival with gusto, actress Delnaaz Irani too is set to celebrate the .",
+        "url": "https://timesofindia.indiatimes.com/tv/news/hindi/its-a-festival-of-joy-and-happiness-delnaaz-irani-on-celebrating-navroz/articleshow/108667948.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-108668511,width-1070,height-580,imgsize-76762,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2024-03-21T06:04:19Z",
+        "content": "International Day of Forests: Indian forests that are breathtakingly beautiful",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "Briana Shepherd",
+        "title": "Murky water at popular WA beach blamed on faulty marina construction equipment, but locals unconvinced",
+        "description": "Murky and discoloured water at Mullaloo Beach in Perth's north is being blamed on a faulty piece of equipment used to construct a marina nearby.",
+        "url": "https://www.abc.net.au/news/2024-03-21/mullaloo-beach-murky-water-blamed-on-construction-equipment/103605928",
+        "urlToImage": "https://live-production.wcms.abc-cdn.net.au/bfc7b9422ad8ed0405da4ef31f750c67?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "publishedAt": "2024-03-21T06:04:18Z",
+        "content": "<ul><li>In short: Authorities have blamed murky water at Mullaloo Beach on damage to a 'silt curtain' at the Ocean Reef Marina development.</li><li>But locals are unconvinced that is what is to blame… [+7328 chars]",
+        "source_name": "ABC News (AU)"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Philadelphia faces Los Angeles, looks to end road losing streak",
+        "description": "Philadelphia 76ers (38-31, eighth in the Eastern Conference) vs. Los Angeles Lakers (37-32, ninth in the Western Conference)Los Angeles; Friday, 10:30 p.m. EDTBOTTOM LINE: Philadelphia hits the road against Los Angeles looking to stop its three-game road losi…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_37b1abad-1cd5-4e2f-81e1-d053a0578b4c",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:04:17Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Edwards and Minnesota take on Cleveland in non-conference action",
+        "description": "Cleveland Cavaliers (43-26, third in the Eastern Conference) vs. Minnesota Timberwolves (47-22, third in the Western Conference)Minneapolis; Friday, 8 p.m. EDTBOTTOM LINE: The Cleveland Cavaliers take on the Minnesota Timberwolves in non-conference play.The T…",
+        "url": "https://ca.sports.yahoo.com/news/edwards-minnesota-cleveland-non-conference-060415910.html",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+        "publishedAt": "2024-03-21T06:04:15Z",
+        "content": "Cleveland Cavaliers (43-26, third in the Eastern Conference) vs. Minnesota Timberwolves (47-22, third in the Western Conference)\r\nMinneapolis; Friday, 8 p.m. EDT\r\nBOTTOM LINE: The Cleveland Cavaliers… [+1899 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "coinpedia.org",
+        "title": "and Render (RNDR) Experience Market Correction as KangaMoon (KANG) Presale On Path to $3M",
+        "description": "Experience Market Correction as KangaMoon (KANG) Presale On Path to $3M appeared first on Coinpedia Fintech News Over the past few days, some crypto tokens have experienced market correction, leading to a slight decline in value. Chainlink (LINK) and Render (…",
+        "url": "https://biztoc.com/x/8785e8aa74bcbd99",
+        "urlToImage": "https://c.biztoc.com/p/8785e8aa74bcbd99/s.webp",
+        "publishedAt": "2024-03-21T06:04:14Z",
+        "content": "and Render (RNDR) Experience Market Correction as KangaMoon (KANG) Presale On Path to $3M appeared first on Coinpedia Fintech NewsOver the past few days, some crypto tokens have experienced market co… [+279 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Thunder face the Raptors, look for 4th straight win",
+        "description": "Oklahoma City Thunder (48-20, first in the Western Conference) vs. Toronto Raptors (23-46, 12th in the Eastern Conference)Toronto; Friday, 7 p.m. EDTBOTTOM LINE: Oklahoma City will attempt to extend its three-game win streak with a victory against Toronto.The…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0d6840a3-41e0-4316-99e0-428bd4d6deb1",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:04:07Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": null,
+        "title": "Cembra publishes invitation to the Annual General Meeting 2024 and its Annual Report 2023",
+        "description": "(marketscreener.com) \n\n\n\n\n\n\n\n\n\nCembra Money Bank AG / Key word: AGMEGM\n\nCembra publishes invitation to the Annual General Meeting 2024 and its Annual Report 2023 \n21-March-2024 / 07:00 CET/CEST\n\nRelease of an ad hoc announcement pursuant to Art. 53 LR\n\nThe is…",
+        "url": "https://www.marketscreener.com/quote/stock/CEMBRA-MONEY-BANK-AG-14742754/news/Cembra-publishes-invitation-to-the-Annual-General-Meeting-2024-and-its-Annual-Report-2023-46248171/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:04:07Z",
+        "content": "Cembra Money Bank AG / Key word(s): AGMEGMCembra publishes invitation to the Annual General Meeting 2024 and its Annual Report 2023 21-March-2024 / 07:00 CET/CESTRelease of an ad hoc announcement pur… [+3341 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "Technotrans increases revenue by 10 % and confirms strategic targets for 2025",
+        "description": "(marketscreener.com) \n\n\n\n\n\n\n\n\n\n\n\n\n\nEQS-News: technotrans SE\n\n\n / Key word: Annual Results\n\n\n\n\n\ntechnotrans increases revenue by 10 % and confirms strategic targets for 2025 \n\n\n\n\n\n\n21.03.2024 / 07:00 CET/CEST\n\n\n\nThe issuer is solely responsible for the content…",
+        "url": "https://www.marketscreener.com/quote/stock/TECHNOTRANS-SE-4058825/news/Technotrans-increases-revenue-by-10-and-confirms-strategic-targets-for-2025-46248170/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:04:06Z",
+        "content": "EQS-News: technotrans SE\r\n/ Key word(s): Annual Results\r\ntechnotrans increases revenue by 10 % and confirms strategic targets for 2025 21.03.2024 / 07:00 CET/CESTThe issuer is solely responsible for … [+10750 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Indiana takes on Golden State, aims for 5th straight road win",
+        "description": "Indiana Pacers (39-31, sixth in the Eastern Conference) vs. Golden State Warriors (36-32, 10th in the Western Conference)San Francisco; Friday, 10 p.m. EDTBOTTOM LINE: Indiana will try to keep its four-game road win streak alive when the Pacers play Golden St…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5e5615eb-2830-43ef-a549-3e841a2a5a19",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:04:05Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "theweekonlineeditors@futurenet.com (The Week Staff)",
+        "title": "Sudoku hard: March 21, 2024",
+        "description": "The Week's daily hard sudoku puzzle",
+        "url": "https://theweek.com/puzzles/sudoku-hard-march-21-2024",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/fqNgbcavqXtvUkCe29iULT-1200-80.png",
+        "publishedAt": "2024-03-21T06:04:04Z",
+        "content": "From our morning news briefing to a weekly Good News Newsletter, get the best of The Week delivered directly to your inbox.\r\nFrom our morning news briefing to a weekly Good News Newsletter, get the b… [+48 chars]",
+        "source_name": "The Week Magazine"
+    },
+    {
+        "author": null,
+        "title": "SIG announces changes in the Board of Directors",
+        "description": "(marketscreener.com) \n\n\n\n\n\n\n\n\n\n\n\n\n\nSIG Group AG\n\n\n / Key word: AGMEGM\n\n\n\n\n\nSIG announces changes in the Board of Directors \n\n\n\n\n\n\n21.03.2024 / 07:00 CET/CEST\n\nPress release\nMarch 21, 2024\n\nSIG announces changes in the Board of Directors\n\nAt the Annual General…",
+        "url": "https://www.marketscreener.com/quote/stock/SIG-GROUP-AG-46388822/news/SIG-announces-changes-in-the-Board-of-Directors-46248163/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+        "publishedAt": "2024-03-21T06:04:04Z",
+        "content": "SIG Group AG\r\n/ Key word(s): AGMEGM\r\nSIG announces changes in the Board of Directors Press releaseMarch 21, 2024\r\nSIG announces changes in the Board of Directors\r\nAt the Annual General Meeting of SIG… [+3033 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "theweekonlineeditors@futurenet.com (The Week Staff)",
+        "title": "Sudoku medium: March 21, 2024",
+        "description": "The Week's daily medium sudoku puzzle",
+        "url": "https://theweek.com/puzzles/sudoku-medium-march-21-2024",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/Md59JffgPLxAAtyTBr5L7m-1200-80.jpg",
+        "publishedAt": "2024-03-21T06:04:04Z",
+        "content": "From our morning news briefing to a weekly Good News Newsletter, get the best of The Week delivered directly to your inbox.\r\nFrom our morning news briefing to a weekly Good News Newsletter, get the b… [+48 chars]",
+        "source_name": "The Week Magazine"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Detroit takes on Boston, seeks to halt 4-game slide",
+        "description": "Boston Celtics (55-14, first in the Eastern Conference) vs. Detroit Pistons (12-57, 14th in the Eastern Conference)Detroit; Friday, 7 p.m. EDTBOTTOM LINE: Detroit looks to break its four-game skid when the Pistons play Boston.The Pistons have gone 9-35 agains…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7782ae64-7233-4cd2-8ee6-215735445551",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:04:01Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "The Associated Press",
+        "title": "Edwards and Minnesota take on Cleveland in non-conference action",
+        "description": "Cleveland Cavaliers (43-26, third in the Eastern Conference) vs. Minnesota Timberwolves (47-22, third in the Western Conference)",
+        "url": "https://www.startribune.com/edwards-and-minnesota-take-on-cleveland-in-non-conference-action/600352877/",
+        "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1710437827",
+        "publishedAt": "2024-03-21T06:04:00Z",
+        "content": "Cleveland Cavaliers (43-26, third in the Eastern Conference) vs. Minnesota Timberwolves (47-22, third in the Western Conference)\r\nMinneapolis; Friday, 8 p.m. EDT\r\nBOTTOM LINE: The Cleveland Cavaliers… [+1877 chars]",
+        "source_name": "Minneapolis Star Tribune"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Trail Blazers face the Clippers on 4-game skid",
+        "description": "Los Angeles Clippers (43-25, fourth in the Western Conference) vs. Portland Trail Blazers (19-50, 14th in the Western Conference)Portland, Oregon; Friday, 10 p.m. EDTBOTTOM LINE: Portland looks to end its four-game skid when the Trail Blazers take on Los Ange…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_20804135-96db-4eb8-8107-37c4cab73fc2",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:03:59Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "The Canadian Press",
+        "title": "Memphis faces San Antonio on 3-game road slide",
+        "description": "Memphis Grizzlies (23-47, 13th in the Western Conference) vs. San Antonio Spurs (15-54, 15th in the Western Conference)San Antonio; Friday, 8 p.m. EDTBOTTOM LINE: Memphis visits San Antonio looking to stop its three-game road skid.The Spurs are 1-12 against S…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_683d0e8f-b9dd-4999-b184-874de11cd8cd",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:03:57Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Αλεξία Σωτηρίου",
+        "title": "ThessINTEC: Israeli investments of 200 million euros",
+        "description": "Israeli investments in the 4th generation ThessINTEC Technology Park in eastern Thessaloniki are expected to reach 200 million euros, through the Memorandum of Cooperation signed by the park’s developer with…\nThessINTEC: Israeli investments of 200 million eur…",
+        "url": "https://www.naftemporiki.gr/english/1620563/thessintec-israeli-investments-of-200-million-euros/",
+        "urlToImage": "https://www.naftemporiki.gr/wp-content/uploads/2024/03/ThessINTEC-e1710944742734-768x432.jpg",
+        "publishedAt": "2024-03-21T06:03:48Z",
+        "content": "Israeli investments in the 4th generation ThessINTEC Technology Park in eastern Thessaloniki are expected to reach 200 million euros, through the Memorandum of Cooperation signed by the park’s develo… [+627 chars]",
+        "source_name": "Naftemporiki.gr"
+    },
+    {
+        "author": "newsroom",
+        "title": "Golden Visa: property acquisition thresholds change – The two scenarios for the timing of their implementation",
+        "description": "Concerns about the stock of properties acquired with 250,000 euros",
+        "url": "https://en.protothema.gr/golden-visa-property-acquisition-thresholds-change-the-two-scenarios-for-the-timing-of-their-implementation/",
+        "urlToImage": "https://en.protothema.gr/wp-content/uploads/2024/03/1-64-150x150.png",
+        "publishedAt": "2024-03-21T06:03:45Z",
+        "content": "In order not to block the market and in particular construction companies that have purchased with 250,000 euros properties that are already being built or renovated, the government is gearing up for… [+2982 chars]",
+        "source_name": "Protothema.gr"
+    }
+]
+[2024-03-22T06:11:34.320+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=fetch_articles_workflow, task_id=extract, execution_date=20240322T061123, start_date=20240322T061129, end_date=20240322T061134
+[2024-03-22T06:11:34.582+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-22T06:11:34.818+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

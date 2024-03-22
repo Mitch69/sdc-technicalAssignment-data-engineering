@@ -1,0 +1,1014 @@
+[2024-03-22T06:22:30.972+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:22:25.192202+00:00 [queued]>
+[2024-03-22T06:22:31.055+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:22:25.192202+00:00 [queued]>
+[2024-03-22T06:22:31.055+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-22T06:22:31.177+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-03-22 06:22:25.192202+00:00
+[2024-03-22T06:22:31.212+0000] {standard_task_runner.py:60} INFO - Started process 1027 to run task
+[2024-03-22T06:22:31.297+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'fetch_articles_workflow', 'extract', 'manual__2024-03-22T06:22:25.192202+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/fetch_articles.py', '--cfg-path', '/tmp/tmpxrkj7gng']
+[2024-03-22T06:22:31.345+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask extract
+[2024-03-22T06:22:32.397+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_articles_workflow.extract manual__2024-03-22T06:22:25.192202+00:00 [running]> on host 1b79855aa23a
+[2024-03-22T06:22:33.128+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='mitchomzz@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_articles_workflow' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-03-22T06:22:25.192202+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-22T06:22:25.192202+00:00'
+[2024-03-22T06:22:36.015+0000] {python.py:202} INFO - Done. Returned value was: [
+    {
+        "author": "MOGOMOTSI MAGOME Associated Press",
+        "title": "Taps have run dry across South Africa's largest city in an unprecedented water crisis",
+        "description": "Thousands of South Africans are lining up for water as the country’s largest city, Johannesburg, confronts an unprecedented collapse of its water system affecting millions of people",
+        "url": "https://abcnews.go.com/Business/wireStory/taps-run-dry-south-africas-largest-city-unprecedented-108337345",
+        "urlToImage": "https://i.abcnewsfe.com/a/db20fa1f-80b2-4f8b-8445-74a8e1ff9783/wirestory_fa8c921c6a063a31aec37e05864d61fb_16x9.jpg?w=1600",
+        "publishedAt": "2024-03-21T06:22:26Z",
+        "content": "JOHANNESBURG -- For two weeks, Tsholofelo Moloi has been among thousands of South Africans lining up for water as the country's largest city, Johannesburg, confronts an unprecedented collapse of its … [+5098 chars]",
+        "source_name": "ABC News"
+    },
+    {
+        "author": "Sarah Hoyt",
+        "title": "WELL, WITH INFLATION THE WAY IT IS CASH LOSES VALUE FAST – AND YOU’VE GOT TO CARRY SUCH LARGE* BILLS",
+        "description": "WELL, WITH INFLATION THE WAY IT IS CASH LOSES VALUE FAST – AND YOU’VE GOT TO CARRY SUCH LARGE* BILLS!  Use it or lose it – the global battle to keep cash.",
+        "url": "https://instapundit.com/637795/",
+        "urlToImage": "https://instapundit.com/wp-content/themes/instapundit/images/opengraph-default.png",
+        "publishedAt": "2024-03-21T06:22:24Z",
+        "content": "InstaPundit is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a\r\n means for sites to earn advertising fees by advertising and linkin… [+15 chars]",
+        "source_name": "Instapundit.com"
+    },
+    {
+        "author": "KELVIN CHAN Associated Press, ALI SWENSON Associated Press",
+        "title": "One Tech Tip: How to spot AI-generated deepfake images",
+        "description": "AI fakery is quickly becoming one of the biggest problems confronting us online",
+        "url": "https://abcnews.go.com/Business/wireStory/tech-tip-spot-ai-generated-deepfake-images-108337436",
+        "urlToImage": "https://i.abcnewsfe.com/a/56201f8f-725f-4bac-a28b-05ab066ed79c/wirestory_8f7403c7e5a738488d74cf2326382d8c_16x9.jpg?w=1600",
+        "publishedAt": "2024-03-21T06:22:17Z",
+        "content": "LONDON -- AI fakery is quickly becoming one of the biggest problems confronting us online. Deceptive pictures, videos and audio are proliferating as a result of the rise and misuse of generative arti… [+4427 chars]",
+        "source_name": "ABC News"
+    },
+    {
+        "author": null,
+        "title": "Scotland 'never a thought' for England's Gordon",
+        "description": "Newcastle forward Anthony Gordon says playing for Scotland was \"never a thought\" after receiving his first call-up to the senior England squad.",
+        "url": "https://www.bbc.co.uk/sport/football/68621944",
+        "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/167B7/production/_132978029_gettyimages-2097316810.jpg",
+        "publishedAt": "2024-03-21T06:22:15Z",
+        "content": "Gordon has nine goals and five assists for Newcastle in the Premier League this season\r\n<table><tr><th>International friendly: England v Brazil</th></tr>\r\n<tr><td>Date: Saturday, 23 March Venue: Wemb… [+2417 chars]",
+        "source_name": "BBC News"
+    },
+    {
+        "author": "ET Online",
+        "title": "Priyanka Chopra visits Ram Mandir with Malti Marie, Nick Jonas: Pics inside",
+        "description": "Priyanka Chopra Ram Mandir with Nick Jonas and Malti Marie: Bollywood icon Priyanka Chopra has posted several photos and videos of her offering prayers at the Ram Mandir in Ayodhya.",
+        "url": "https://economictimes.indiatimes.com/news/web-stories/priyanka-chopra-visits-ram-mandir-with-malti-marie-nick-jonas-pics-inside/slideshow/108669139.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108669329,width-900,height-460,resizemode-4.cms",
+        "publishedAt": "2024-03-21T06:22:13Z",
+        "content": "Several members of Priyanka's family, including her mother, were seen at the temple. (Image: Instagram/ Priyanka Chopra)",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "bbc.co.uk",
+        "title": "Easter eggs may cost more as climate change bites",
+        "description": "Cocoa trees are particularly vulnerable to changes in the climate. They only grow in a narrow band of about 20 degrees latitude around the Equator. Most global production is concentrated in West Africa. In 2023, 58m kilogrammes of cocoa beans worth £127m were…",
+        "url": "https://biztoc.com/x/0cffca2f441156a1",
+        "urlToImage": "https://c.biztoc.com/p/0cffca2f441156a1/s.webp",
+        "publishedAt": "2024-03-21T06:22:06Z",
+        "content": "Cocoa trees are particularly vulnerable to changes in the climate. They only grow in a narrow band of about 20 degrees latitude around the Equator.Most global production is concentrated in West Afric… [+300 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "bbc.co.uk",
+        "title": "Neuralink: Musk's firm says first brain-chip patient plays online chess",
+        "description": "Mr Arbaugh also said that he had used the brain implant to play the video game Civilization VI. Neuralink gave him \"the ability to do that again and played for eight hours straight\", he said. However, Mr Arbaugh said the new technology was not perfect and the…",
+        "url": "https://biztoc.com/x/5ea71de645cf0d38",
+        "urlToImage": "https://c.biztoc.com/p/5ea71de645cf0d38/s.webp",
+        "publishedAt": "2024-03-21T06:22:05Z",
+        "content": "Mr Arbaugh also said that he had used the brain implant to play the video game Civilization VI. Neuralink gave him \"the ability to do that again and played for eight hours straight\", he said.However,… [+283 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": null,
+        "title": "Is Mpac Group plc's (LON:MPAC) Recent Stock Performance Influenced By Its Fundamentals In Any Way?",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5dbfd1f5-0c59-40a0-8123-1ab681091809",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:21:59Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Narayan Khatri",
+        "title": "bash: ./run: Permission denied",
+        "description": "The source code of GOLIATH simulator is provided in public.\nhttps://github.com/necst/GOLIATH\nHowever, I found it hard to install it. I got permission denied error as attached in image file. I would be grateful for your suggestion. I have following issues.\n<ol…",
+        "url": "https://askubuntu.com/questions/1508134/bash-run-permission-denied",
+        "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955",
+        "publishedAt": "2024-03-21T06:21:59Z",
+        "content": "The source code of GOLIATH simulator and installation guide is provided in public.\r\nhttps://github.com/necst/GOLIATH\r\nHowever, I found it hard to install it. I got permission denied error as attached… [+748 chars]",
+        "source_name": "Askubuntu.com"
+    },
+    {
+        "author": "AP",
+        "title": "Biden is using the ''are you better off today'' question to contrast himself with Trump",
+        "description": "President Biden took aim at former President Trump, reminding voters of the tumultuous times during Trump's tenure and questioning if they are better off now. Biden criticized Trump's recent remarks about potential violence if he loses in November, emphasizin…",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/biden-is-using-the-are-you-better-off-today-question-to-contrast-himself-with-trump/articleshow/108669131.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108669172,width-1200,height-630,imgsize-51288,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-03-21T06:21:56Z",
+        "content": "President Joe Biden opened a new line of attack against former President Donald Trump on Wednesday, asking and answering the classic \"are you better off today than you were four years ago\" question t… [+2923 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "AFP",
+        "title": "US unveils draft UN resolution seeking immediate Gaza ceasefire",
+        "description": "The diplomat made his announcement whilst on a tour of the Middle East that will include a stop in Israel.",
+        "url": "https://www.moneycontrol.com/news/world/us-unveils-draft-un-resolution-seeking-immediate-gaza-ceasefire-12500021.html",
+        "urlToImage": "https://images.moneycontrol.com/static-mcnews/2024/01/Hamas-770x433.jpg",
+        "publishedAt": "2024-03-21T06:21:50Z",
+        "content": "The United States has circulated a draft UN Security Council resolution calling for an \"immediate ceasefire linked to the release of hostages\" in the Gaza Strip, Secretary of State Antony Blinken sai… [+6388 chars]",
+        "source_name": "Moneycontrol"
+    },
+    {
+        "author": "The Hills Times",
+        "title": "Defection in Congress dividend for BJP",
+        "description": "By: M.R.Lalu The Congress, the principal opposition of Prime Minister Modi, seems to be paying a crippling price for its past Karmas. It being the largest party to counter the Modi momentum has frequently been pulled by the Prime Minister throughout his prepa…",
+        "url": "https://thehillstimes.in/featured/defection-in-congress-dividend-for-bjp",
+        "urlToImage": "https://thehillstimes.in/wp-content/uploads/2024/03/rut-1696508709.jpg",
+        "publishedAt": "2024-03-21T06:21:42Z",
+        "content": "By: M.R.Lalu\r\nThe Congress, the principal opposition of Prime Minister Modi, seems to be paying a crippling price for its past Karmas. It being the largest party to counter the Modi momentum has freq… [+7410 chars]",
+        "source_name": "Thehillstimes.in"
+    },
+    {
+        "author": "ET Now",
+        "title": "Buy on dips? Go for these 4 defence and hotel stocks: Hemang Jani",
+        "description": "Hemang Jani discusses opportunities in various sectors including defence, healthcare, and PSU banks. Recommendations include BEL, HAL in defence, and BOB, Canara, State Bank in PSU banks amid market corrections. He also says, \" Linde, which is a midcap stock …",
+        "url": "https://economictimes.indiatimes.com/markets/expert-view/buy-on-dips-go-for-these-4-defence-and-hotel-stocks-hemang-jani/articleshow/108668867.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108668836,width-1200,height-630,imgsize-119804,overlay-etmarkets/photo.jpg",
+        "publishedAt": "2024-03-21T06:21:26Z",
+        "content": "Hemang Jani, Independent Market Expert, says when it comes to cherry picking some of the stocks which have corrected, some of the defence stocks like BEL, BEML provide a great opportunity; some of th… [+6156 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Suicide-hit women's jail 'hell on earth'",
+        "description": "HMP Styal has seen at least 11 suicides since 2007 - more than any other women's prison in England.",
+        "url": "https://www.bbc.co.uk/news/uk-england-manchester-68553761",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16A69/production/_132977729_de54.jpg",
+        "publishedAt": "2024-03-21T06:21:25Z",
+        "content": "Former inmates of a prison where several women have taken their own lives have condemned it as \"no place for a vulnerable young woman\".\r\nThere have been at least 11 suicides at HMP Styal in Cheshire … [+6758 chars]",
+        "source_name": "BBC News"
+    },
+    {
+        "author": null,
+        "title": "\"Extremely Pleased\": Akasa Air On Boeing 737 Max In Fleet",
+        "description": "Akasa Air, one of India's newest airlines, has said it is \"extremely pleased\" with the performance of the Boeing 737 Max aircraft but added that \"no amount of focus on safety is enough\".",
+        "url": "https://www.ndtv.com/india-news/akasa-air-boeing-737-max-extremely-pleased-but-safety-never-too-much-akasa-air-on-boeing-737-max-5281047",
+        "urlToImage": "https://c.ndtvimg.com/2024-03/pulvsln8_akasa-air_625x300_21_March_24.jpg",
+        "publishedAt": "2024-03-21T06:21:14Z",
+        "content": "Akasa Air CEO Vinay Dube said they are \"extremely satisfied\" with the aircraft\r\nNew Delhi: Akasa Air, one of India's newest airlines, has said it is \"extremely pleased\" with the performance of the Bo… [+2258 chars]",
+        "source_name": "NDTV News"
+    },
+    {
+        "author": "Adam Cooper",
+        "title": "Sainz “not stupid” and will admit if he's not fit for Melbourne F1 return",
+        "description": "The Spaniard acknowledges that he hasn’t yet returned to 100% fitness after having his appendix removed in Saudi Arabia two weeks ago.However, he remains confident that he will be able to drive this weekend, despite not undertaking any training or using the M…",
+        "url": "https://www.autosport.com/f1/news/sainz-not-stupid-and-will-admit-if-hes-not-fit-for-melbourne-f1-return/10589334/",
+        "urlToImage": "https://cdn-3.motorsport.com/images/amp/YpNpJBW0/s6/carlos-sainz-scuderia-ferrari-.jpg",
+        "publishedAt": "2024-03-21T06:21:01Z",
+        "content": "The Spaniard acknowledges that he hasnt yet returned to 100% fitness after having his appendix removed in Saudi Arabia two weeks ago.\r\nHowever, he remains confident that he will be able to drive this… [+2366 chars]",
+        "source_name": "autosport.com"
+    },
+    {
+        "author": null,
+        "title": "Baseball superstar's interpreter fired after 'massive theft' allegations",
+        "description": "The Los Angeles Dodgers have fired the longtime interpreter and friend of superstar Shohei Ohtani following allegations of \"massive theft\".",
+        "url": "https://news.sky.com/story/shohei-ohtanis-interpreter-fired-after-massive-theft-allegations-13098996",
+        "urlToImage": "https://e3.365dm.com/24/03/1600x900/skynews-los-angeles-dodgers_6496407.jpg?20240321064118",
+        "publishedAt": "2024-03-21T06:21:00Z",
+        "content": "The Los Angeles Dodgers have fired the longtime interpreter and friend of superstar Shohei Ohtani following allegations of \"massive theft\".\r\nIppei Mizuhara, who has been alongside Japanese baseball s… [+2782 chars]",
+        "source_name": "Sky.com"
+    },
+    {
+        "author": null,
+        "title": "Pitch BFSI Marketing Summit & Awards",
+        "description": "Pitch BFSI Marketing Summit & Awardse4mevents.com",
+        "url": "https://e4mevents.com/bfsi-marketing-summit-awards-2024/",
+        "urlToImage": "https://e4mevents.com/bfsi-marketing-summit-awards-2023/public/images/BFSI-Logo300200.png",
+        "publishedAt": "2024-03-21T06:20:56Z",
+        "content": "<li>A01 Most Effective ROI Driven Campaign</li>A campaign with best return on investment (ROI) that marketing quantifies to justify how marketing programs and campaigns generate revenue for the busin… [+2219 chars]",
+        "source_name": "E4mevents.com"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Zacks Research Weighs in on Novavax, Inc.’s Q4 2024 Earnings (NASDAQ:NVAX)",
+        "description": "Novavax, Inc. (NASDAQ:NVAX – Free Report) – Equities researchers at Zacks Research increased their Q4 2024 EPS estimates for Novavax in a research report issued on Tuesday, March 19th. Zacks Research analyst S. Ganoria now forecasts that the biopharmaceutical…",
+        "url": "https://www.etfdailynews.com/2024/03/21/zacks-research-weighs-in-on-novavax-inc-s-q4-2024-earnings-nasdaqnvax/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/novavax-inc-logo-1200x675.jpg?v=20221129192725&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:47Z",
+        "content": "Novavax, Inc. (NASDAQ:NVAX – Free Report) – Equities researchers at Zacks Research increased their Q4 2024 EPS estimates for Novavax in a research report issued on Tuesday, March 19th. Zacks Research… [+3799 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "TransDigm Group Incorporated (NYSE:TDG) to Post Q1 2025 Earnings of $7.06 Per Share, Zacks Research Forecasts",
+        "description": "TransDigm Group Incorporated (NYSE:TDG – Free Report) – Equities researchers at Zacks Research increased their Q1 2025 earnings estimates for TransDigm Group in a note issued to investors on Tuesday, March 19th. Zacks Research analyst R. Department now antici…",
+        "url": "https://www.etfdailynews.com/2024/03/21/transdigm-group-incorporated-nysetdg-to-post-q1-2025-earnings-of-7-06-per-share-zacks-research-forecasts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/transdigm-group-incorporated-logo-1200x675.png?v=20231222092553&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:47Z",
+        "content": "TransDigm Group Incorporated (NYSE:TDG – Free Report) – Equities researchers at Zacks Research increased their Q1 2025 earnings estimates for TransDigm Group in a note issued to investors on Tuesday,… [+6412 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "FY2024 EPS Estimates for AZZ Inc. (NYSE:AZZ) Lifted by Analyst",
+        "description": "AZZ Inc. (NYSE:AZZ – Free Report) – Investment analysts at Sidoti Csr raised their FY2024 earnings per share (EPS) estimates for shares of AZZ in a research note issued to investors on Tuesday, March 19th. Sidoti Csr analyst J. Franzreb now expects that the i…",
+        "url": "https://www.etfdailynews.com/2024/03/21/fy2024-eps-estimates-for-azz-inc-nyseazz-lifted-by-analyst/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/azz-inc-logo-1200x675.png?v=20221205135052&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:46Z",
+        "content": "AZZ Inc. (NYSE:AZZ – Free Report) – Investment analysts at Sidoti Csr raised their FY2024 earnings per share (EPS) estimates for shares of AZZ in a research note issued to investors on Tuesday, March… [+4233 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Seaport Res Ptn Comments on Berry Co.’s FY2024 Earnings (NASDAQ:BRY)",
+        "description": "Berry Co. (NASDAQ:BRY – Free Report) – Research analysts at Seaport Res Ptn reduced their FY2024 EPS estimates for shares of Berry in a research note issued to investors on Tuesday, March 19th. Seaport Res Ptn analyst N. Pope now anticipates that the energy c…",
+        "url": "https://www.etfdailynews.com/2024/03/21/seaport-res-ptn-comments-on-berry-co-s-fy2024-earnings-nasdaqbry/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/berry-co-logo-1200x675.PNG?v=20210306135743&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:46Z",
+        "content": "Berry Co. (NASDAQ:BRY – Free Report) – Research analysts at Seaport Res Ptn reduced their FY2024 EPS estimates for shares of Berry in a research note issued to investors on Tuesday, March 19th. Seapo… [+3996 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "FY2024 Earnings Estimate for NextEra Energy, Inc. Issued By Seaport Res Ptn (NYSE:NEE)",
+        "description": "NextEra Energy, Inc. (NYSE:NEE – Free Report) – Investment analysts at Seaport Res Ptn upped their FY2024 earnings per share estimates for shares of NextEra Energy in a research report issued to clients and investors on Monday, March 18th. Seaport Res Ptn ana…",
+        "url": "https://www.etfdailynews.com/2024/03/21/fy2024-earnings-estimate-for-nextera-energy-inc-issued-by-seaport-res-ptn-nysenee/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nextera-energy-inc-logo-1200x675.png?v=20221020155332&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:46Z",
+        "content": "NextEra Energy, Inc. (NYSE:NEE – Free Report) – Investment analysts at Seaport Res Ptn upped their FY2024 earnings per share estimates for shares of NextEra Energy in a research report issued to clie… [+5311 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Bsr Reit (TSE:HOM) to Post FY2024 Earnings of $1.28 Per Share, Cormark Forecasts",
+        "description": "Bsr Reit (TSE:HOM – Free Report) – Stock analysts at Cormark decreased their FY2024 earnings per share (EPS) estimates for shares of Bsr Reit in a note issued to investors on Tuesday, March 19th. Cormark analyst S. Srinivas now forecasts that the company will…",
+        "url": "https://www.etfdailynews.com/2024/03/21/bsr-reit-tsehom-to-post-fy2024-earnings-of-1-28-per-share-cormark-forecasts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/bsr-reit-logo-1200x675.jpg?v=20211220092435&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:45Z",
+        "content": "Bsr Reit (TSE:HOM – Free Report) – Stock analysts at Cormark decreased their FY2024 earnings per share (EPS) estimates for shares of Bsr Reit in a note issued to investors on Tuesday, March 19th. Cor… [+537 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Premium Brands Holdings Co. to Post FY2024 Earnings of $4.87 Per Share, Cormark Forecasts (TSE:PBH)",
+        "description": "Premium Brands Holdings Co. (TSE:PBH – Free Report) – Analysts at Cormark decreased their FY2024 earnings estimates for Premium Brands in a research note issued on Monday, March 18th. Cormark analyst K. Mcphee now anticipates that the company will post earnin…",
+        "url": "https://www.etfdailynews.com/2024/03/21/premium-brands-holdings-co-to-post-fy2024-earnings-of-4-87-per-share-cormark-forecasts-tsepbh/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/premium-brands-holdings-co-logo-1200x675.png?v=20221117151927&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:45Z",
+        "content": "Premium Brands Holdings Co. (TSE:PBH – Free Report) – Analysts at Cormark decreased their FY2024 earnings estimates for Premium Brands in a research note issued on Monday, March 18th. Cormark analyst… [+3230 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Q3 2024 EPS Estimates for Ballard Power Systems Inc. (NASDAQ:BLDP) Lifted by Cormark",
+        "description": "Ballard Power Systems Inc. (NASDAQ:BLDP – Free Report) (TSE:BLD) – Equities researchers at Cormark boosted their Q3 2024 EPS estimates for shares of Ballard Power Systems in a research note issued to investors on Monday, March 18th. Cormark analyst M. Whale n…",
+        "url": "https://www.etfdailynews.com/2024/03/21/q3-2024-eps-estimates-for-ballard-power-systems-inc-nasdaqbldp-lifted-by-cormark/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ballard-power-systems-inc-logo-1200x675.png?v=20221128160051&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:43Z",
+        "content": "Ballard Power Systems Inc. (NASDAQ:BLDP – Free Report) (TSE:BLD) – Equities researchers at Cormark boosted their Q3 2024 EPS estimates for shares of Ballard Power Systems in a research note issued to… [+5153 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "StockNews.com Upgrades GDS (NASDAQ:GDS) to Sell",
+        "description": "GDS (NASDAQ:GDS – Get Free Report) was upgraded by equities research analysts at StockNews.com to a “sell” rating in a research note issued to investors on Thursday. Separately, Jefferies Financial Group lifted their price target on GDS from $17.22 to $17.75 …",
+        "url": "https://www.etfdailynews.com/2024/03/21/stocknews-com-upgrades-gds-nasdaqgds-to-sell/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/gds-holdings-ltd---logo-1200x675.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:42Z",
+        "content": "GDS (NASDAQ:GDS – Get Free Report) was upgraded by equities research analysts at StockNews.com to a “sell” rating in a research note issued to investors on Thursday.\r\nSeparately, Jefferies Financial … [+3111 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Q3 2024 Earnings Estimate for Carnival Co. & plc (NYSE:CCL) Issued By William Blair",
+        "description": "Carnival Co. & plc (NYSE:CCL – Free Report) – Equities research analysts at William Blair raised their Q3 2024 earnings per share estimates for shares of Carnival Co. & in a research report issued on Tuesday, March 19th. William Blair analyst S. Zackfia now a…",
+        "url": "https://www.etfdailynews.com/2024/03/21/q3-2024-earnings-estimate-for-carnival-co-plc-nyseccl-issued-by-william-blair/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/carnival-co--plc-logo-1200x675.png?v=20240109092155&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:42Z",
+        "content": "Carnival Co. &amp; plc (NYSE:CCL – Free Report) – Equities research analysts at William Blair raised their Q3 2024 earnings per share estimates for shares of Carnival Co. &amp; in a research report i… [+5555 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "WaFd (NASDAQ:WAFD) Downgraded by StockNews.com to “Sell”",
+        "description": "WaFd (NASDAQ:WAFD – Get Free Report) was downgraded by equities research analysts at StockNews.com from a “hold” rating to a “sell” rating in a note issued to investors on Thursday. A number of other analysts also recently commented on the company. Keefe, Bru…",
+        "url": "https://www.etfdailynews.com/2024/03/21/wafd-nasdaqwafd-downgraded-by-stocknews-com-to-sell-2/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/washington-federal-inc-logo-1200x675.png?v=20220516155549&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:41Z",
+        "content": "WaFd (NASDAQ:WAFD – Get Free Report) was downgraded by equities research analysts at StockNews.com from a “hold” rating to a “sell” rating in a note issued to investors on Thursday.\r\nA number of othe… [+3507 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "SB Financial Group (NASDAQ:SBFG) Research Coverage Started at StockNews.com",
+        "description": "Analysts at StockNews.com assumed coverage on shares of SB Financial Group (NASDAQ:SBFG – Get Free Report) in a research note issued to investors on Thursday. The firm set a “hold” rating on the financial services provider’s stock. SB Financial Group Trading …",
+        "url": "https://www.etfdailynews.com/2024/03/21/sb-financial-group-nasdaqsbfg-research-coverage-started-at-stocknews-com/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sb-financial-group-inc-logo-1200x675.png?v=20211213084842&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:20:41Z",
+        "content": "Analysts at StockNews.com assumed coverage on shares of SB Financial Group (NASDAQ:SBFG – Get Free Report) in a research note issued to investors on Thursday. The firm set a “hold” rating on the fina… [+3005 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "Ali Salman",
+        "title": "OLED iPad Pro Could Launch With a Matte Screen Option Alongside Standard Versions, Similar to the Studio Display",
+        "description": "Apple is speculated to announce its new OLED iPad Pro later this month with major design changes, but it is not the only product we are expecting from the company. The company plans to upgrade the iPad Air lineup as well with some necessary changes in terms o…",
+        "url": "https://wccftech.com/oled-ipad-pro-could-launch-with-a-matte-screen-option-alongside-standard-versions-similar-to-the-studio-display/",
+        "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2024/03/OLED-iPad-Pro-title-3.jpg",
+        "publishedAt": "2024-03-21T06:20:33Z",
+        "content": "Apple is speculated to announce its new OLED iPad Pro later this month with major design changes, but it is not the only product we are expecting from the company. The company plans to upgrade the iP… [+2383 chars]",
+        "source_name": "Wccftech"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": "(in)courage",
+        "title": "His Mercies Are New Every Minute",
+        "description": "I’m in my car and turning onto the interstate that takes me over the lake. I like the way the water sparkles — like a mirror, always reflecting the light of the good sun. As the water sparkles, I think about something that younger me never realized. Right her…",
+        "url": "https://www.incourage.me/2024/03/his-mercies-are-new-every-minute.html",
+        "urlToImage": "https://incourage.me/wp-content/uploads/2024/03/2024-03-21-Kang_SHORT.jpg",
+        "publishedAt": "2024-03-21T06:20:16Z",
+        "content": "Im in my car and turning onto the interstate that takes me over the lake. I like the way the water sparkles like a mirror, always reflecting the light of the good sun.\r\nAs the water sparkles, I think… [+2629 chars]",
+        "source_name": "Incourage.me"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": "youtube.com",
+        "title": "NCIS Gibbs' Absence: Mark Harmon's Tribute to Ducky",
+        "description": "Uncover the unexpected silver lining in Mark Harmon's absence and tribute to Ducky in NCIS! #NCIS #MarkHarmon Subscribe: https://www.youtube.com/@ScreenRant?sub_confirmation=1 Check out Screen Rant’s official TikTok! https://www.tiktok.com/@screenrant Our Soc…",
+        "url": "https://biztoc.com/x/16d8730edf68e17b",
+        "urlToImage": "https://c.biztoc.com/p/16d8730edf68e17b/s.webp",
+        "publishedAt": "2024-03-21T06:20:09Z",
+        "content": "Uncover the unexpected silver lining in Mark Harmon's absence and tribute to Ducky in NCIS! #NCIS #MarkHarmonSubscribe: https://www.youtube.com/@ScreenRant?sub_confirmation=1Check out Screen Rants of… [+208 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "theblock.co",
+        "title": "UN says half of North Korea’s foreign currency gains came from hacks, crypto attacks: reports",
+        "description": "The United Nations Security Council said the income was then used to fund around 40% of the costs of developing mass-destructive weapons.",
+        "url": "https://biztoc.com/x/98ac625546d5f537",
+        "urlToImage": "https://c.biztoc.com/p/98ac625546d5f537/s.webp",
+        "publishedAt": "2024-03-21T06:20:09Z",
+        "content": "The United Nations Security Council said the income was then used to fund around 40% of the costs of developing mass-destructive weapons.\r\nThis story appeared on theblock.co, .",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "wooh",
+        "title": "Trying to find a specific type of TV stand, no clue if it exists",
+        "description": "TLDR is I am imagining a stand that can easily rise up high, but also go down low. It would have wheels, so that you could sort of \"bring it out\" from out from under somewhere, adjust it to a nice viewing height, then easily \"collapse\" it and roll it back to …",
+        "url": "https://ask.metafilter.com/378958/Trying-to-find-a-specific-type-of-TV-stand-no-clue-if-it-exists",
+        "urlToImage": "http://cdn.mefi.us/images/askmefi/apple-touch-icon.png",
+        "publishedAt": "2024-03-21T06:20:05Z",
+        "content": "Ask MetaFilter is a question and answer site that covers nearly any question on earth, where members help each other solve problems. Ask MetaFilter is where thousands of life's little questions are a… [+7 chars]",
+        "source_name": "Metafilter.com"
+    },
+    {
+        "author": null,
+        "title": "Chipotle's board has approved a 50-1 stock split, which coincidentally is the exact ratio of food violently expelled from your body to the amount actually digested within an hour of eating at Chipotle [Interesting]",
+        "description": "Chipotle's board has approved a 50-1 stock split, which coincidentally is the exact ratio of food violently expelled from your body to the amount actually digested within an hour of eating at Chipotle",
+        "url": "https://www.fark.com/comments/13193780/Chipotles-board-has-approved-a-50-1-stock-split-which-coincidentally-is-exact-ratio-of-food-violently-expelled-from-your-body-to-amount-actually-digested-within-an-hour-of-eating-at-Chipotle",
+        "urlToImage": "https://usrimg-full.fark.net/M/M4/fark_M4c-mIQVtMwpmMTLMZlbnYiHNOY.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1711339200&Signature=vSbLmf3Pv9kxUYEKVh3%2FXqd8cco%3D",
+        "publishedAt": "2024-03-21T06:20:00Z",
+        "content": "<li>Links are submitted by members of the Fark community.\r\n</li><li>When community members submit a link, they also write a custom headline for the story.\r\n</li><li>Other Farkers comment on the links… [+177 chars]",
+        "source_name": "Fark.com"
+    },
+    {
+        "author": "InvestorsObserver",
+        "title": "French artist Camille Walala hosts",
+        "description": "French artist Camille Walala hosts",
+        "url": "https://www.investorsobserver.com/news/qm-pr/7292390314894221",
+        "urlToImage": "https://s3.amazonaws.com/images.investorsobserver.com/io-logo-800x450.jpg",
+        "publishedAt": "2024-03-21T06:20:00Z",
+        "content": "HONG KONG\r\n,\r\nMarch 21, 2024\r\n/PRNewswire/ --\r\nHarbour City,\r\nHong Kong's\r\npremier shopping mall\r\nis delighted to present the striking Colourful Public Art Show \"Planet Walala @Harbour City\" from 21 … [+2581 chars]",
+        "source_name": "InvestorsObserver"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": "Ishaan Gera",
+        "title": "Private sector activity rises to eight month high of 61.3 in March",
+        "description": "India’s private sector output rose to its highest level in eight months to 61.3 in March compared with 60.6 in the previous month, according to results of a private survey released Thursday.",
+        "url": "https://economictimes.indiatimes.com/news/economy/indicators/private-sector-activity-rises-to-eight-month-high-of-61-3-in-march/articleshow/108669057.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-108669048,width-1200,height-630,imgsize-25946,overlay-economictimes/photo.jpg",
+        "publishedAt": "2024-03-21T06:19:57Z",
+        "content": "Indias private sector output rose to its highest level in eight months to 61.3 in March compared with 60.6 in the previous month, according to results of a private survey released Thursday. The incre… [+2062 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "Sal Romano",
+        "title": "Anomaly Collapse launches April 12",
+        "description": "Turn-based roguelite strategy game Anomaly Collapse will launch for PC via Steam on April 12, publisher Spiral Up Games and developer RocketPunch Games announced.",
+        "url": "https://www.gematsu.com/2024/03/anomaly-collapse-launches-april-12",
+        "urlToImage": "https://www.gematsu.com/wp-content/uploads/2024/03/Anomaly-Collapse-Dated_03-21-24.jpg",
+        "publishedAt": "2024-03-21T06:19:52Z",
+        "content": "Turn-based roguelitestrategy gameAnomaly Collapse will launch for PC via Steam on April 12, publisher Spiral Up Games and developer RocketPunch Games announced. \r\nHere is an overview of the game, via… [+1685 chars]",
+        "source_name": "Gematsu"
+    },
+    {
+        "author": "NEWS WIRES",
+        "title": "Several injured as Russia targets Kyiv in missile attack, mayor says",
+        "description": "Russia launched a missile attack on Kyiv, the Ukrainian capital, early on Thursday, injuring at least 10 people and damaging residential buildings and industrial facilities, city officials said, although air defences downed all the missiles.",
+        "url": "https://www.france24.com/en/europe/20240321-several-injured-as-russia-targets-kyiv-in-missile-attack-mayor-says",
+        "urlToImage": "https://s.france24.com/media/display/ec0012c8-e747-11ee-a335-005056bfb2b6/w:1280/p:16x9/2024-03-21T055120Z_815441610_RC25Q6ADJHSL_RTRMADP_3_UKRAINE-CRISIS.JPG",
+        "publishedAt": "2024-03-21T06:19:33Z",
+        "content": "Russia launched a missile attack on Kyiv, the Ukrainian capital, early on Thursday, injuring at least 10 people and damaging residential buildings and industrial facilities, city officials said, alth… [+1307 chars]",
+        "source_name": "FRANCE 24 English"
+    },
+    {
+        "author": null,
+        "title": "Software provider Nemetschek targets more growth again",
+        "description": "(marketscreener.com) The building software provider Nemetschek is aiming for stronger growth again in the new year. The MDax company announced in Munich on Thursday that revenue is set to increase by ten to eleven percent after currency adjustments. The margi…",
+        "url": "https://www.marketscreener.com/quote/stock/NEMETSCHEK-SE-436349/news/Software-provider-Nemetschek-targets-more-growth-again-46248268/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:19:17Z",
+        "content": "MUNICH (dpa-AFX) - The building software provider Nemetschek is aiming for stronger growth again in the new year. The MDax company announced in Munich on Thursday that revenue is set to increase by t… [+751 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Ryan Lynch",
+        "title": "Is there still hope for air taxis here after this bill’s death?",
+        "description": "The death of a bill in the Florida Legislature that would have made the Orlando region a hub for air taxis has not compromised the technology’s future in the region.",
+        "url": "https://www.wftv.com/news/local/is-there-still-hope-air-taxis-here-after-this-bills-death/JTVN37YMHZACHFVDXTICE2I4CI/",
+        "urlToImage": "https://cmg-cmg-tv-10070-prod.cdn.arcpublishing.com/resizer/pxyruBALZ9maMpjVRmQZPStymzo=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/7PHYLQGEYVGQTKNP34VWUSJBIM.jpg",
+        "publishedAt": "2024-03-21T06:19:15Z",
+        "content": "ORLANDO, Fla. — Editors note: This story is available as a result of a content partnership between WFTV and the Orlando Business Journal.\r\nThe death of a bill in the Florida Legislature that would ha… [+1088 chars]",
+        "source_name": "WFTV Orlando"
+    },
+    {
+        "author": "Nikki Demarco",
+        "title": "3 lifeguard towers closing on Cocoa Beach after partial funding pulled by city",
+        "description": "Three beaches in Cocoa Beach will be without seasonal lifeguard towers after the City of Cocoa Beach backs out of paying its contribution to Brevard County for lifeguard services, according to a news release from Brevard Commissioner John Tobia.",
+        "url": "https://www.wftv.com/news/local/3-lifeguard-towers-closing-cocoa-beach-after-partial-funding-pulled-by-city/R3JJ3NOFYZARHFQN7VFF7H4GNA/",
+        "urlToImage": "https://cmg-cmg-tv-10070-prod.cdn.arcpublishing.com/resizer/Mxw8WjkOltTCGuS0DOh7wbCtqz4=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/GKOFV2OLDVD7TFPATNQE7SEWJQ.jpg",
+        "publishedAt": "2024-03-21T06:19:14Z",
+        "content": "BREVARD COUNTY, Fla. — Three beaches in Cocoa Beach will be without seasonal lifeguard towers after the City of Cocoa Beach backs out of paying its contribution to Brevard County for lifeguard servic… [+1947 chars]",
+        "source_name": "WFTV Orlando"
+    },
+    {
+        "author": null,
+        "title": "MFA director-general to plead guilty over use of diplomatic bags",
+        "description": "Gilbert Oh Hin Kwan indicated his intention to plead guilty at a further mention of his case, after returning to Singapore from a court-approved trip to Tokyo.",
+        "url": "https://www.channelnewsasia.com/singapore/mfa-director-general-indicated-guilty-plea-diplomatic-bag-use-panadol-watches-4211021",
+        "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--0Z5X-4zn--/c_crop,h_490,w_872,x_0,y_177/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/cna/image/2023/11/22/Gilbert Oh.png?itok=jd4pdbrc",
+        "publishedAt": "2024-03-21T06:19:04Z",
+        "content": "SINGAPORE: A director-general at the Ministry of Foreign Affairs (MFA) is set to plead guilty to charges over his use of diplomatic bags.\r\nGilbert Oh Hin Kwan, 45, indicated at a further mention of h… [+1699 chars]",
+        "source_name": "CNA"
+    },
+    {
+        "author": "William Osoro",
+        "title": "Israel Mbonyi: Nina Siri Singer Celebrates Clocking a Million YouTube Subscribers",
+        "description": "Israel Mbonyi, a youthful gospel singer from Rwanda famed for the Nina Siri hit, recently celebrated after reaching one million YouTube subscribers.",
+        "url": "https://www.tuko.co.ke/entertainment/celebrities/542097-israel-mbonyi-rwandese-gospel-singer-celebrates-clocking-a-million-youtube-subscribers/",
+        "urlToImage": "https://netstorage-tuko.akamaized.net/images/9c8de3d924d5227c.png?imwidth=1200",
+        "publishedAt": "2024-03-21T06:19:01Z",
+        "content": "<ul><li>Israel Mbonyi, a 31-year-old Rwandese singer with Congolese roots, is taking over the gospel industry</li><li>The gospel minister clocked a million subscribers on YouTube, a feat few of his c… [+2600 chars]",
+        "source_name": "Breaking NEWS in KENYA for Today Right Now & Kenyan News | TUKO"
+    },
+    {
+        "author": "InvestorsObserver",
+        "title": "Safe Pest Control to Fulfill Growing Demand of Locals with Expansion of Commercial Pest Control Division",
+        "description": "Sydney, Australia--(Newsfile Corp. - March 21, 2024) - Safe Pest Control today announced the expansion of its premier commercial pest control division in Australia. The pest control experts aim to live up to the expectations of its customers in New Sou...",
+        "url": "https://www.investorsobserver.com/news/qm-pr/7631747713012891",
+        "urlToImage": "https://s3.amazonaws.com/images.investorsobserver.com/io-logo-800x450.jpg",
+        "publishedAt": "2024-03-21T06:19:00Z",
+        "content": "News HomeSydney, Australia--(Newsfile Corp. - March 21, 2024) - Safe Pest Control today announced the expansion of its premier commercial pest control division in Australia. The pest control experts … [+3389 chars]",
+        "source_name": "InvestorsObserver"
+    },
+    {
+        "author": "The Hills Times",
+        "title": "Assam govt mandates Shiksha Setu App for daily attendance tracking in schools",
+        "description": "GUWHATI, March 21: In a bid to bolster accountability and streamline attendance management in the state’s educational institutions, the Department of School Education, Government of Assam, has issued a groundbreaking directive mandating the use of the Shiksha…",
+        "url": "https://thehillstimes.in/assam/assam-govt-mandates-shiksha-setu-app-for-daily-attendance-tracking-in-schools",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:18:58Z",
+        "content": "GUWHATI, March 21: In a bid to bolster accountability and streamline attendance management in the state’s educational institutions, the Department of School Education, Government of Assam, has issued… [+1688 chars]",
+        "source_name": "Thehillstimes.in"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Contrasting Corsair Gaming (NASDAQ:CRSR) and Rigetti Computing (NASDAQ:RGTIW)",
+        "description": "Corsair Gaming (NASDAQ:CRSR – Get Free Report) and Rigetti Computing (NASDAQ:RGTIW – Get Free Report) are both consumer discretionary companies, but which is the better stock? We will contrast the two companies based on the strength of their earnings, institu…",
+        "url": "https://www.etfdailynews.com/2024/03/21/contrasting-corsair-gaming-nasdaqcrsr-and-rigetti-computing-nasdaqrgtiw/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rigetti-computing-inc-logo-1200x675.png?v=20220629151000&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:47Z",
+        "content": "Corsair Gaming (NASDAQ:CRSR – Get Free Report) and Rigetti Computing (NASDAQ:RGTIW – Get Free Report) are both consumer discretionary companies, but which is the better stock? We will contrast the tw… [+4009 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Reviewing Airgain (NASDAQ:AIRG) and Sonic Foundry (NASDAQ:SOFO)",
+        "description": "Airgain (NASDAQ:AIRG – Get Free Report) and Sonic Foundry (NASDAQ:SOFO – Get Free Report) are both small-cap computer and technology companies, but which is the superior business? We will compare the two businesses based on the strength of their analyst recom…",
+        "url": "https://www.etfdailynews.com/2024/03/21/reviewing-airgain-nasdaqairg-and-sonic-foundry-nasdaqsofo/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/sonic-foundry-inc-logo-1200x675.jpg?v=20230830143306&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:46Z",
+        "content": "Airgain (NASDAQ:AIRG – Get Free Report) and Sonic Foundry (NASDAQ:SOFO – Get Free Report) are both small-cap computer and technology companies, but which is the superior business? We will compare the… [+5231 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Head to Head Comparison: BrightSpring Health Services (NASDAQ:BTSG) versus Chemed (NYSE:CHE)",
+        "description": "Chemed (NYSE:CHE – Get Free Report) and BrightSpring Health Services (NASDAQ:BTSG – Get Free Report) are both medical companies, but which is the better business? We will compare the two companies based on the strength of their analyst recommendations, instit…",
+        "url": "https://www.etfdailynews.com/2024/03/21/head-to-head-comparison-brightspring-health-services-nasdaqbtsg-versus-chemed-nyseche/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/brightspring-health-services-inc-logo-1200x675.png?v=20240206091927&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:45Z",
+        "content": "Chemed (NYSE:CHE – Get Free Report) and BrightSpring Health Services (NASDAQ:BTSG – Get Free Report) are both medical companies, but which is the better business? We will compare the two companies ba… [+3917 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "TC Bancshares (NASDAQ:TCBC) vs. Security Bancorp (OTCMKTS:SCYT) Head to Head Contrast",
+        "description": "Security Bancorp (OTCMKTS:SCYT – Get Free Report) and TC Bancshares (NASDAQ:TCBC – Get Free Report) are both small-cap finance companies, but which is the superior stock? We will compare the two companies based on the strength of their analyst recommendations…",
+        "url": "https://www.etfdailynews.com/2024/03/21/tc-bancshares-nasdaqtcbc-vs-security-bancorp-otcmktsscyt-head-to-head-contrast/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tc-bancshares-inc-logo-1200x675.png?v=20230104122157&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:43Z",
+        "content": "Security Bancorp (OTCMKTS:SCYT – Get Free Report) and TC Bancshares (NASDAQ:TCBC – Get Free Report) are both small-cap finance companies, but which is the superior stock? We will compare the two comp… [+4595 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Keros Therapeutics, Inc. (NASDAQ:KROS) Receives $86.83 Average Price Target from Brokerages",
+        "description": "Shares of Keros Therapeutics, Inc. (NASDAQ:KROS – Get Free Report) have earned a consensus rating of “Buy” from the six analysts that are currently covering the firm, Marketbeat reports. Six research analysts have rated the stock with a buy rating. The averag…",
+        "url": "https://www.etfdailynews.com/2024/03/21/keros-therapeutics-inc-nasdaqkros-receives-86-83-average-price-target-from-brokerages/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/keros-therapeutics-inc-logo-1200x675.png&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:42Z",
+        "content": "Shares of Keros Therapeutics, Inc. (NASDAQ:KROS – Get Free Report) have earned a consensus rating of “Buy” from the six analysts that are currently covering the firm, Marketbeat reports. Six research… [+3747 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "MarineMax, Inc. (NYSE:HZO) Receives $39.00 Average PT from Brokerages",
+        "description": "MarineMax, Inc. (NYSE:HZO – Get Free Report) has been given an average recommendation of “Moderate Buy” by the five research firms that are currently covering the firm, Marketbeat reports. One equities research analyst has rated the stock with a hold rating a…",
+        "url": "https://www.etfdailynews.com/2024/03/21/marinemax-inc-nysehzo-receives-39-00-average-pt-from-brokerages/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/marinemax-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:42Z",
+        "content": "MarineMax, Inc. (NYSE:HZO – Get Free Report) has been given an average recommendation of “Moderate Buy” by the five research firms that are currently covering the firm, Marketbeat reports. One equiti… [+5504 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "FiscalNote Holdings, Inc. (NYSE:NOTE) Receives $4.44 Average PT from Analysts",
+        "description": "FiscalNote Holdings, Inc. (NYSE:NOTE – Get Free Report) has been assigned a consensus rating of “Moderate Buy” from the six analysts that are currently covering the stock, MarketBeat.com reports. Two analysts have rated the stock with a hold rating and four h…",
+        "url": "https://www.etfdailynews.com/2024/03/21/fiscalnote-holdings-inc-nysenote-receives-4-44-average-pt-from-analysts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/fiscalnote-holdings-inc-logo-1200x675.png?v=20220919112908&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:18:42Z",
+        "content": "FiscalNote Holdings, Inc. (NYSE:NOTE – Get Free Report) has been assigned a consensus rating of “Moderate Buy” from the six analysts that are currently covering the stock, MarketBeat.com reports. Two… [+3227 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": null,
+        "title": "Haiti: Hunger looms amid breakdown of order",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_405492e2-4e9a-424c-8422-325379b7a0b6",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:18:35Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "BBC",
+        "title": "Haiti: Hunger looms amid breakdown of order",
+        "description": "Millions are caught in a perfect storm of politics, violence and homelessness.",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_79d59d21-f6cc-437f-a1ff-9f29a2aefba6",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:18:35Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "Simply Wall St.",
+        "title": "Exploring BRC Asia Plus Two More Elite Dividend Stocks",
+        "description": "In a session marked by cautious optimism, Singapore's market inched higher despite a lackluster response to Wall Street's upbeat performance, reflecting the complex interplay of global and local economic signals. Amid these conditions, identifying dividend st…",
+        "url": "https://finance.yahoo.com/news/exploring-brc-asia-plus-two-061829950.html",
+        "urlToImage": "https://media.zenfs.com/en/simply_wall_st__316/20440850d85a0a24534edc176f6e5c4b",
+        "publishedAt": "2024-03-21T06:18:29Z",
+        "content": "In a session marked by cautious optimism, Singapore's market inched higher despite a lackluster response to Wall Street's upbeat performance, reflecting the complex interplay of global and local econ… [+5706 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Kraken Unveils Crypto Custody Service for US Institutional Clients",
+        "description": "Crypto exchange Kraken launched a crypto custody service in the US targeted at institutional clients on Wednesday. Kraken Financial, a state-chartered bank based in Wyoming, will provide the service. The service includes digital asset custody and institutiona…",
+        "url": "https://biztoc.com/x/5b0e4a87719f3897",
+        "urlToImage": "https://c.biztoc.com/p/5b0e4a87719f3897/s.webp",
+        "publishedAt": "2024-03-21T06:18:21Z",
+        "content": "Crypto exchange Kraken launched a crypto custody service in the US targeted at institutional clients on Wednesday.Kraken Financial, a state-chartered bank based in Wyoming, will provide the service. … [+327 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Hong Kong Central Bank Raises Red Flag on Deceptive Digital Currency Trial Entities",
+        "description": "Hong Kong’s central bank cautioned the public Wednesday about schemes falsely claiming association with its e-HKD pilot projects. The warning comes as Hong Kong explores the potential of a central bank digital currency through various trial projects. The publ…",
+        "url": "https://biztoc.com/x/673926807e8b8a06",
+        "urlToImage": "https://c.biztoc.com/p/673926807e8b8a06/s.webp",
+        "publishedAt": "2024-03-21T06:18:20Z",
+        "content": "Hong Kongs central bank cautioned the public Wednesday about schemes falsely claiming association with its e-HKD pilot projects. The warning comes as Hong Kong explores the potential of a central ban… [+307 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Sweden’s Riksbank Releases Final Report on CBDC Project",
+        "description": "Sweden’s Riksbank has released its final report on its central bank digital currency (CBDC), the e-Krona, which focused on offline payments. In the fourth phase, Sweden’s Riksbank, said the focus has been on testing and evaluating whether it is possible to de…",
+        "url": "https://biztoc.com/x/6e359a42ec36f9d3",
+        "urlToImage": "https://c.biztoc.com/p/6e359a42ec36f9d3/s.webp",
+        "publishedAt": "2024-03-21T06:18:20Z",
+        "content": "Swedens Riksbank has released its final report on its central bank digital currency (CBDC), the e-Krona, which focused on offline payments.In the fourth phase, Swedens Riksbank, said the focus has be… [+304 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Morph EVM Raises $20M Funding Led by DragonFly Capital",
+        "description": "Ethereum Virtual Machine (EVM) Layer 2 firm Morph, announced it has raised $19 million in a seed funding led by investment firm DragonFly Capital. Other participants in the $19 million funding round included Pantera Capital, Foresight Ventures, Spartan Group,…",
+        "url": "https://biztoc.com/x/3cd2e16e621c6536",
+        "urlToImage": "https://c.biztoc.com/p/3cd2e16e621c6536/s.webp",
+        "publishedAt": "2024-03-21T06:18:20Z",
+        "content": "Ethereum Virtual Machine (EVM) Layer 2 firm Morph, announced it has raised $19 million in a seed funding led by investment firm DragonFly Capital.Other participants in the $19 million funding round i… [+332 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Uzbekistan Increases Monthly Fees for Crypto Market Participants",
+        "description": "Uzbekistan’s National Agency for Prospective Projects (NAPP) has announced a new directive to raise the monthly fees for those involved in the crypto market within the country. This directive was issued on Tuesday, March 19, 2024, in anticipation that the sec…",
+        "url": "https://biztoc.com/x/32b26b0a22b438a2",
+        "urlToImage": "https://c.biztoc.com/p/32b26b0a22b438a2/s.webp",
+        "publishedAt": "2024-03-21T06:18:20Z",
+        "content": "Uzbekistans National Agency for Prospective Projects (NAPP) has announced a new directive to raise the monthly fees for those involved in the crypto market within the country.This directive was issue… [+323 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "coinpedia.org",
+        "title": "Cardano & Polkadot Rally Behind The Kelexo (KLXO) Vision, Accelerating Lending Platform’s Presale Momentum",
+        "description": "The post Cardano & Polkadot Rally Behind The Kelexo (KLXO) Vision, Accelerating Lending Platform’s Presale Momentum appeared first on Coinpedia Fintech News The Cardano (ADA) and Polkadot (DOT) communities provide unparalleled support to Kelexo (KLXO), a nove…",
+        "url": "https://biztoc.com/x/724623514f2adfa2",
+        "urlToImage": "https://c.biztoc.com/p/724623514f2adfa2/s.webp",
+        "publishedAt": "2024-03-21T06:18:20Z",
+        "content": "The post Cardano &amp; Polkadot Rally Behind The Kelexo (KLXO) Vision, Accelerating Lending Platforms Presale Momentum appeared first on Coinpedia Fintech NewsThe Cardano (ADA) and Polkadot (DOT) com… [+282 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "Best Crypto to Buy Today March 20",
+        "description": "As concerns about Ether’s regulatory status in the US weigh on market sentiment on Tuesday, and one day after spot Bitcoin ETFs just saw their biggest daily outflow, traders are hunting for the best crypto to buy today to maximize their chances of securing qu…",
+        "url": "https://biztoc.com/x/7cfb396c5a05ff28",
+        "urlToImage": "https://c.biztoc.com/p/7cfb396c5a05ff28/s.webp",
+        "publishedAt": "2024-03-21T06:18:19Z",
+        "content": "As concerns about Ethers regulatory status in the US weigh on market sentiment on Tuesday, and one day after spot Bitcoin ETFs just saw their biggest daily outflow, traders are hunting for the best c… [+287 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "cryptonews.com",
+        "title": "South Korean Tax Dodgers Out of Pocket as Authorities Seize $768,500 Worth of Crypto",
+        "description": "South Korean “tax dodgers” have been dealt another blow, with tax authorities in the city of Hwaseong confiscating crypto assets worth over $768,500. Tax officers said they had seized a whopping $567,000 of the total from one single individual. The move is pa…",
+        "url": "https://biztoc.com/x/7fa20abfdb30e9d1",
+        "urlToImage": "https://c.biztoc.com/p/7fa20abfdb30e9d1/s.webp",
+        "publishedAt": "2024-03-21T06:18:19Z",
+        "content": "South Korean tax dodgers have been dealt another blow, with tax authorities in the city of Hwaseong confiscating crypto assets worth over $768,500.Tax officers said they had seized a whopping $567,00… [+310 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "coinpedia.org",
+        "title": "Meme Coin Rally Strikes Again: DOGE, PEPE, SHIB FLOKI Eye 100% Spike",
+        "description": "Sohrab is a passionate cryptocurrency news writer with over five years of experience covering the industry. He keeps a keen interest in blockchain technology and its potential to revolutionize finance. Whether he's trading or writing, Sohrab always keeps his …",
+        "url": "https://biztoc.com/x/7b5a6b23b208edb3",
+        "urlToImage": "https://c.biztoc.com/p/7b5a6b23b208edb3/s.webp",
+        "publishedAt": "2024-03-21T06:18:17Z",
+        "content": "Sohrab is a passionate cryptocurrency news writer with over five years of experience covering the industry. He keeps a keen interest in blockchain technology and its potential to revolutionize financ… [+255 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "coinpedia.org",
+        "title": "No All-Time High in Sight for Pepe Coin and Apecoin as Prices Dip",
+        "description": "The post No All-Time High in Sight for Pepe Coin and Apecoin as Prices Dip – Meme Coin Investors Pick Scorpion Casino appeared first on Coinpedia Fintech News With Pepe Coin’s price (PEPE) experiencing a downturn, investors are left wondering if a new Pepe al…",
+        "url": "https://biztoc.com/x/b68faa32242de132",
+        "urlToImage": "https://c.biztoc.com/p/b68faa32242de132/s.webp",
+        "publishedAt": "2024-03-21T06:18:15Z",
+        "content": "The post No All-Time High in Sight for Pepe Coin and Apecoin as Prices Dip Meme Coin Investors Pick Scorpion Casino appeared first on Coinpedia Fintech NewsWith Pepe Coins price (PEPE) experiencing a… [+295 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "thedesk.net",
+        "title": "How to stream all March Madness games from CBS and TNT Sports",
+        "description": "Every spring, college basketball explodes in a frenzy known as March Madness. This single-elimination tournament crowns the NCAA Division I Men’s Basketball National Champion, but it’s become much more than just a game. It’s a cultural phenomenon, gripping th…",
+        "url": "https://biztoc.com/x/a12bec5d0160b1e9",
+        "urlToImage": "https://c.biztoc.com/p/a12bec5d0160b1e9/s.webp",
+        "publishedAt": "2024-03-21T06:18:12Z",
+        "content": "Every spring, college basketball explodes in a frenzy known as March Madness. This single-elimination tournament crowns the NCAA Division I Mens Basketball National Champion, but its become much more… [+292 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "benzinga.com",
+        "title": "Valneva to Present on its Chikungunya Vaccine IXCHIQ®, Participate in Multiple Events at the 24th World Vaccine Congress in Washington D.C",
+        "description": "Saint-Herblain (France), March 21, 2024 – VALNVLA, a specialty vaccine company, today announced it will present on its single-shot chikungunya vaccine, IXCHIQ®, moderate a roundtable on the Zika and chikungunya viruses, and participate in a panel discussion o…",
+        "url": "https://biztoc.com/x/659f43767d5f4b64",
+        "urlToImage": "https://c.biztoc.com/273/og.png",
+        "publishedAt": "2024-03-21T06:18:09Z",
+        "content": "Saint-Herblain (France), March 21, 2024 VALNVLA, a specialty vaccine company, today announced it will present on its single-shot chikungunya vaccine, IXCHIQ®, moderate a roundtable on the Zika and ch… [+339 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "benzinga.com",
+        "title": "New Industry Report Asks Whether 2024 is Living Up to Expectations for Offshore Wind?",
+        "description": "TGS, the leading global provider of energy data and intelligence, has released its latest Market Overview Report, powered by 4C Offshore market intelligence. This comprehensive analysis offers an early assessment of the global offshore wind industry for the r…",
+        "url": "https://biztoc.com/x/aabceb6be229093f",
+        "urlToImage": "https://c.biztoc.com/273/og.png",
+        "publishedAt": "2024-03-21T06:18:08Z",
+        "content": "TGS, the leading global provider of energy data and intelligence, has released its latest Market Overview Report, powered by 4C Offshore market intelligence. This comprehensive analysis offers an ear… [+315 chars]",
+        "source_name": "Biztoc.com"
+    },
+    {
+        "author": "The Japan Times",
+        "title": "Japan GSDF resumes Osprey flights near Tokyo after fatal U.S. crash",
+        "description": "Japan's Ground Self-Defense Force resumed Thursday flights of its Ospreys near Tokyo, almost four months after suspending them due to a deadly crash of a U.S. military Osprey off a southwestern Japanese island.",
+        "url": "https://www.japantimes.co.jp/news/2024/03/21/japan/gsdf-resumes-osprey-flights/",
+        "urlToImage": "https://www.japantimes.co.jp/japantimes/uploads/images/2024/03/21/287492.jpg",
+        "publishedAt": "2024-03-21T06:18:00Z",
+        "content": "Japan's Ground Self-Defense Force resumed Thursday flights of its Ospreys near Tokyo, almost four months after suspending them due to a deadly crash of a U.S. military Osprey off a southwestern Japan… [+1370 chars]",
+        "source_name": "The Japan Times"
+    },
+    {
+        "author": "Farik Zolkepli",
+        "title": "Police looking for Myanmar tourist missing in Kuala Lumpur",
+        "description": "KUALA LUMPUR: The police are looking for a 40-year-old female tourist from Myanmar who has been missing in the city since last month. Read full story",
+        "url": "https://www.thestar.com.my/news/nation/2024/03/21/police-looking-for-myanmar-tourist-missing-in-kuala-lumpur",
+        "urlToImage": "https://apicms.thestar.com.my/uploads/images/2024/03/21/2603951.jpg",
+        "publishedAt": "2024-03-21T06:18:00Z",
+        "content": "KUALA LUMPUR: The police are looking for a 40-year-old female tourist from Myanmar who has been missing in the city since last month.\r\nKuala Lumpur police said Yin Lae Soe was staying at the Royal Bu… [+436 chars]",
+        "source_name": "The Star Online"
+    },
+    {
+        "author": "The Japan Times",
+        "title": "Democratic leaders agree to address fake news in election year",
+        "description": "Leaders of more than 30 democratic countries agreed Wednesday to work together to address fake news generated through artificial intelligence and other digital technologies, with many of the nations facing elections this year.",
+        "url": "https://www.japantimes.co.jp/news/2024/03/21/japan/politics/democratic-leaders-address-fake-news/",
+        "urlToImage": "https://www.japantimes.co.jp/japantimes/uploads/images/2024/03/21/287505.jpg",
+        "publishedAt": "2024-03-21T06:18:00Z",
+        "content": "SEOUL Leaders of more than 30 democratic countries agreed Wednesday to work together to address fake news generated through artificial intelligence and other digital technologies, with many of the na… [+551 chars]",
+        "source_name": "The Japan Times"
+    },
+    {
+        "author": "Richard Pollina",
+        "title": "Traveler reveals how to get free hotel snacks with ‘genius’ hack",
+        "description": "\"I work in a hotel and she’s so right.\"",
+        "url": "https://nypost.com/2024/03/21/lifestyle/tiktok-video-reveals-how-to-get-free-hotel-snacks-with-genius-hack/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/03/newspress-collage-r11i1eso5-1710999501875.jpg?quality=75&strip=all&1710985188&w=1024",
+        "publishedAt": "2024-03-21T06:17:44Z",
+        "content": "Mother knows best.\r\nA woman shared a sly life hack to avoid paying for overpriced snacks while staying at a hotel with a little help from her mom.\r\nA TikToker shared a video on how she snags free sna… [+3812 chars]",
+        "source_name": "New York Post"
+    },
+    {
+        "author": "Roopa Radhakrishnan",
+        "title": "Anjali Nair and Abhirami will be starring in this hyperlink thriller",
+        "description": "The film is a hyperlink thriller that focuses on how ‘a gun’ changes the lives of four individuals. It will be an entertaining commercial movie with a strong political stand.",
+        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/anjali-nair-and-abhirami-will-be-starring-in-this-hyperlink-thriller/articleshow/108669002.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-108669002,width-1070,height-580,imgsize-74426,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2024-03-21T06:17:42Z",
+        "content": "International Day of Forests: Indian forests that are breathtakingly beautiful",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "TIMESOFINDIA.COM",
+        "title": "Budaun kids were stabbed 23 times, autopsy report reveals brutality in UP double murder",
+        "description": "The postmortem report on the brutal murder of Ayush and Aahan in Budaun, UP, exposes grim findings. Salon owner Sajid killed the brothers, leading to his fatal encounter with the police. Autopsy discloses the horrific details: Aahan suffered 9 stab wounds, Ay…",
+        "url": "https://timesofindia.indiatimes.com/city/bareilly/budaun-kids-were-stabbed-23-times-autopsy-report-reveals-brutality-in-up-double-murder/articleshow/108668547.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-108668592,width-1070,height-580,imgsize-34420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2024-03-21T06:17:38Z",
+        "content": "10 wildlife species found in India",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "ETMarkets.com",
+        "title": "Shares of Ambuja Cements rise as Nifty gains",
+        "description": "On the technical charts, the 200-day moving average of the stock stood at Rs 481.25.",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/shares-of-ambuja-cements-rise-as-nifty-gains/articleshow/108668981.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-83725308,width-1200,height-630,imgsize-48184,overlay-etmarkets/photo.jpg",
+        "publishedAt": "2024-03-21T06:17:23Z",
+        "content": "Shares of Ambuja Cements Ltd. gained 2.07 per cent to Rs 588.7 in Thursday's trade as of 11:47AM (IST). It hit a high of Rs 590.8 and low of Rs 578.55 during the session. The stock quoted a 52-week h… [+1087 chars]",
+        "source_name": "The Times of India"
+    },
+    {
+        "author": "Just Jared",
+        "title": "The 'Glee' Cast Almost Looked Very Different! 4 Actors Auditioned to Play Finn & a Reality Star Tried Out Even Though They Couldn't Sing",
+        "description": "The young and talented cast of Glee featured some of the brightest rising stars on the scene when the musical series debuted in 2009. They perfectly embodied the plucky underdogs who won hearts with their musical abilities and tight bond. However, the lineup …",
+        "url": "https://www.justjared.com/2024/03/21/the-glee-cast-almost-looked-very-different-4-actors-auditioned-to-play-finn-a-reality-star-tried-out-even-though-they-couldnt-sing/",
+        "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2024/03/glee-auditions.jpg",
+        "publishedAt": "2024-03-21T06:17:11Z",
+        "content": "The young and talented cast of Glee featured some of the brightest rising stars on the scene when the musical series debuted in 2009. \r\nThey perfectly embodied the plucky underdogs who won hearts wit… [+1130 chars]",
+        "source_name": "Just Jared"
+    },
+    {
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]",
+        "source_name": "[Removed]"
+    },
+    {
+        "author": null,
+        "title": "Gurunavi : Notice regarding Revision of Full-year Business Forecast for FY2023",
+        "description": "(marketscreener.com) \n \n For immediate release\n \n \n \n \n \n Name of Listed Company:\n \n \n \n \n Gurunavi, Inc.\n \n \n \n \n \n \n Listed Stock Exchanges:\n \n \n \n ...https://www.marketscreener.com/quote/stock/GURUNAVI-INC-6497682/news/Gurunavi-Notice-regarding-Revision-of…",
+        "url": "https://www.marketscreener.com/quote/stock/GURUNAVI-INC-6497682/news/Gurunavi-Notice-regarding-Revision-of-Full-year-Business-Forecast-for-FY2023-46248260/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:17:03Z",
+        "content": "For immediate release\r\n<table><tr><td>\r\n Name of Listed Company:\r\n</td><td>\r\nGurunavi, Inc.\r\n</td></tr><tr><td>\r\nListed Stock Exchanges:\r\n</td><td>\r\nTokyo Stock Exchange\r\n</td></tr><tr><td>\r\nStock Co… [+3143 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "IRSA Inversiones y Representaciones Sociedad Anónima : Shares Repurchase Plan - March 2024",
+        "description": "(marketscreener.com) \n The Board of Directors has decided to establish the terms and conditions for the acquisition of the common shares issued by the Company.\n \n \n \n To make such decision, the Board of Directors has considered the economic and market situati…",
+        "url": "https://www.marketscreener.com/quote/stock/IRSA-INVERSIONES-Y-REPRES-6492812/news/IRSA-Inversiones-y-Representaciones-Sociedad-An-nima-Shares-Repurchase-Plan-March-2024-46248259/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:17:03Z",
+        "content": "The Board of Directors has decided to establish the terms and conditions for the acquisition of the common shares issued by the Company.\r\nTo make such decision, the Board of Directors has considered … [+3199 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": null,
+        "title": "FRONTEO : Obtained a patent for a new technology that provides a bird's-eye view and visualization of the supply chain in economic security AI solutions",
+        "description": "(marketscreener.com) 2024.03.21Press release\n \n \n --To the press -\n \n \n Obtained a patent for a new technology that provides a bird's-eye view and visualization of the supply chain in economic security AI solutions\n \n \n FRONTEO Inc.\n Masahiro Morimoto, Presid…",
+        "url": "https://www.marketscreener.com/quote/stock/FRONTEO-INC-6814687/news/FRONTEO-Obtained-a-patent-for-a-new-technology-that-provides-a-bird-s-eye-view-and-visualization-o-46248261/",
+        "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+        "publishedAt": "2024-03-21T06:17:03Z",
+        "content": "FRONTEO Inc.Masahiro Morimoto, President and CEO2-12-23 Konan, Minato-ku, Tokyo(Code number: 2158 TSE Growth)\r\nFRONTEO Co., Ltd. (Headquarters: Minato-ku, Tokyo, President and CEO: Masahiro Morimoto,… [+4266 chars]",
+        "source_name": "Marketscreener.com"
+    },
+    {
+        "author": "Simply Wall St.",
+        "title": "Those who invested in Kretam Holdings Berhad (KLSE:KRETAM) five years ago are up 71%",
+        "description": "Stock pickers are generally looking for stocks that will outperform the broader market. And the truth is, you can make...",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d7a825bd-d83c-46ea-ad88-b443a1defe2b",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:16:59Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": null,
+        "title": "Those who invested in Kretam Holdings Berhad (KLSE:KRETAM) five years ago are up 71%",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7120ad09-eec7-4736-880b-8061461cebab",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:16:59Z",
+        "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 241 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "BBC",
+        "title": "Scotland's climate target unreachable says watchdog",
+        "description": "Independent advisers say ministers have not delivered the policies to cut greenhouse gas emissions.",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_47ef8ba0-4e05-40ef-b105-d72be22480f1",
+        "urlToImage": null,
+        "publishedAt": "2024-03-21T06:16:52Z",
+        "content": "If you click 'Accept all', we and our partners (including 241 who are part of the IAB Transparency &amp; Consent Framework) will also use cookies and your personal data, such as IP address, precise l… [+686 chars]",
+        "source_name": "Yahoo Entertainment"
+    },
+    {
+        "author": "David Pasztor",
+        "title": "Chukwuemeka keeping the faith through the highs and lows",
+        "description": "He’s back!",
+        "url": "https://weaintgotnohistory.sbnation.com/2024/3/21/24107453/carney-chukwuemeka-keeping-the-faith-through-the-highs-and-lows",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/ihBrHGDgzgnj2w6yf3i81mXItmQ=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25347354/2091497686.jpg",
+        "publishedAt": "2024-03-21T06:16:51Z",
+        "content": "Photo by Darren Walsh/Chelsea FC via Getty Images\r\n\n \n\n He’s back! The season began with great promise for young Carney Chukwuemeka. After being only on the fringes of the first-team as a 19-year-old… [+2717 chars]",
+        "source_name": "SB Nation"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Regulus Therapeutics Inc. (NASDAQ:RGLS) to Post FY2023 Earnings of ($1.60) Per Share, Leerink Partnrs Forecasts",
+        "description": "Regulus Therapeutics Inc. (NASDAQ:RGLS – Free Report) – Equities researchers at Leerink Partnrs issued their FY2023 earnings per share estimates for Regulus Therapeutics in a research note issued on Monday, March 18th. Leerink Partnrs analyst J. Schwartz fore…",
+        "url": "https://www.etfdailynews.com/2024/03/21/regulus-therapeutics-inc-nasdaqrgls-to-post-fy2023-earnings-of-1-60-per-share-leerink-partnrs-forecasts/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/regulus-therapeutics-inc-logo-1200x675.jpg?v=20230113142941&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:16:46Z",
+        "content": "Regulus Therapeutics Inc. (NASDAQ:RGLS – Free Report) – Equities researchers at Leerink Partnrs issued their FY2023 earnings per share estimates for Regulus Therapeutics in a research note issued on … [+4263 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "MarketBeat News",
+        "title": "Consolidated Communications (NASDAQ:CNSL) Coverage Initiated by Analysts at StockNews.com",
+        "description": "Analysts at StockNews.com initiated coverage on shares of Consolidated Communications (NASDAQ:CNSL – Get Free Report) in a report released on Thursday. The firm set a “sell” rating on the utilities provider’s stock. Consolidated Communications Price Performan…",
+        "url": "https://www.etfdailynews.com/2024/03/21/consolidated-communications-nasdaqcnsl-coverage-initiated-by-analysts-at-stocknews-com-2/",
+        "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/consolidated-communications-holdings-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
+        "publishedAt": "2024-03-21T06:16:44Z",
+        "content": "Analysts at StockNews.com initiated coverage on shares of Consolidated Communications (NASDAQ:CNSL – Get Free Report) in a report released on Thursday. The firm set a “sell” rating on the utilities p… [+2642 chars]",
+        "source_name": "ETF Daily News"
+    },
+    {
+        "author": "Jessica Foster",
+        "title": "Window Panes: Types, Advantages, and Replacement Tips",
+        "description": "Starting a home renovation or simply seeking to enhance your living space will always bring the subject of window panel replacement in conversations. Windows play a critical role in the comfort, energy efficiency, and overall aesthetic of your home. Whether o…",
+        "url": "https://ahouseinthehills.com/window-panes-types-advantages-and-replacement-tips/",
+        "urlToImage": "https://d5t3j6u2.rocketcdn.me/wp-content/uploads/2024/03/word-image-100528-1.jpeg",
+        "publishedAt": "2024-03-21T06:16:42Z",
+        "content": "Starting a home renovation or simply seeking to enhance your living space will always bring the subject of window panel replacement in conversations. Windows play a critical role in the comfort, ener… [+8951 chars]",
+        "source_name": "Ahouseinthehills.com"
+    }
+]
+[2024-03-22T06:22:36.112+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=fetch_articles_workflow, task_id=extract, execution_date=20240322T062225, start_date=20240322T062230, end_date=20240322T062236
+[2024-03-22T06:22:36.220+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-22T06:22:36.282+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
